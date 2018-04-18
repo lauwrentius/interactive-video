@@ -1,0 +1,130 @@
+{
+  "V1_intro_1" : {
+    "end" : null,
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_intro.vtt?alt=media&token=ccd02391-797a-40af-b2b7-79e0b323a957",
+    "url": "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_intro_1.mp4?alt=media&token=cbf8ea1d-f593-43dd-a86f-39eb9c4b2092",
+    "overlays" : [
+      {
+        "in" : 64,
+        "type" : "text",
+        "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+        "x" : 539,
+        "y" : 189
+      },{
+        "in" : 64,
+        "type" : "droppable",
+        "x": 600,
+        "y": 20,
+        "droppableZone":[
+          {
+            "x":33, "y":270,"w":189,"h":94,
+            "url": "V1_A_1"
+          },
+          {
+            "x":262,"y":270,"w":189,"h":94,
+            "url": "V1_C_1"
+          },
+          {
+            "x":494,"y":270,"w":189,"h":94,
+            "url": "V1_B_1"
+          }
+        ]
+      }
+    ]
+  },
+  "V1_A_1" : {
+    "end" : "TC1_WV1_1",
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_A.vtt?alt=media&token=99f9b177-53ef-4df1-8c9c-cdb7be7449d0",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_A_1.mp4?alt=media&token=c874a9e3-a512-4c1e-b37e-2ac1bcfaf734"
+  },
+  "V1_B_1" : {
+    "end" : "TC1_WV1_1",
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_B.vtt?alt=media&token=0073ede0-db2b-4b70-ac4f-1dbc48c6db60",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_B_1.mp4?alt=media&token=98abc445-f69d-4bc9-9d67-b919e566d267"
+  },
+  "V1_C_1" : {
+    "end" : "V1_con4_1",
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_C.vtt?alt=media&token=ea4826c1-3263-4e58-9705-56c3503bef07",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_C_1.mp4?alt=media&token=d37108f7-4b19-4f19-b2ef-48e02b98266a"
+  },
+  "TC1_WV1_1":{
+    "end" : null,
+    "cc" : null,
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FTC1_WV1_1.mp4?alt=media&token=4099b223-eaa7-44c5-a370-c21e44e6c28f",
+    "overlays" : [
+      {
+        "in" : 6,
+        "type" : "text",
+        "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+        "x" : 539,
+        "y" : 189
+      },{
+        "in" : 6,
+        "type" : "droppable",
+        "x": 600,
+        "y": 20,
+        "droppableZone":[
+          {
+            "x":33, "y":270,"w":189,"h":94,
+            "url": "V1_con3_1"
+          },
+          {
+            "x":262,"y":270,"w":189,"h":94,
+            "url": "V1_con2_1"
+          },
+          {
+            "x":494,"y":270,"w":189,"h":94,
+            "url": "V1_con1_1"
+          }
+        ]
+      }
+    ]
+  },
+  "V1_con1_1":{
+    "end" : "V1_con5_1",
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_con1.vtt?alt=media&token=69ee1ffd-6263-499c-99c4-1b9afa415340",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_con1_1.mp4?alt=media&token=f056c1be-aaed-4ff1-9946-c1bec7d823c2"
+  },
+  "V1_con2_1":{
+    "end" : "V1_con5_1",
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_con2.vtt?alt=media&token=054ddc48-9e53-41f1-aa65-f22ba073be22",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_con2_1.mp4?alt=media&token=e473b212-6e1d-4e01-a565-4948edb1b8a1"
+  },
+  "V1_con3_1":{
+    "end" : "V1_con5_1",
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_con3.vtt?alt=media&token=57b607ad-1e0c-46db-8f45-5e5ba8743667",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_con3_1.mp4?alt=media&token=af7d970a-cae4-4f3c-b147-1832ae133233"
+  },
+  "V1_con4_1":{
+    "end" : null,
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_con4.vtt?alt=media&token=69af9f9b-15b1-42f2-867d-9e51fbd6c398",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_con4_1.mp4?alt=media&token=d0ff5bdd-2e30-486e-94c0-4521a98f4f3b",
+    "overlays": [
+      {
+        "in": 110,
+        "type": "button",
+        "val": "Play Again?",
+        "x": 118,
+        "y": 301,
+        "w": 100,
+        "h": 54
+      }
+    ]
+  },
+  "V1_con5_1":{
+    "end": null,
+    "cc" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/cc%2FV1_con5.vtt?alt=media&token=d169e8d4-f524-49f7-9dd2-bd2962b81be7",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/t-mobile-interactive.appspot.com/o/videos%2FV1_con5_1.mp4?alt=media&token=9a2dda85-5e27-4533-90da-2e753875b239",
+    "overlays": [
+      {
+        "in": 60,
+        "type": "button",
+        "val": "Play Again?",
+        "x": 118,
+        "y": 301,
+        "w": 100,
+        "h": 54
+      }
+    ]
+  }
+}

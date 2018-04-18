@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  margin: 0px auto;
+  width: 720px;
+  position: relative;
+}
+.hidden{
+  display: none !important;
+}
+
+.textComponent{
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.buttonComponent{
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+.dragDropComponent{
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 720px;
+  height: 377px;
+}
+.dragEl{
+  z-index: 5;
+  position: absolute;
+  background-color: rgba(255,255,255,.2);
+}
+.dropEl{
+  z-index: 4;  
+  position: absolute;
+  background-color: rgba(255,255,0,.5);
+}
+.dropEl.disabled{
+  background-color: rgba(60,60,60,.8);
+}
+.video-js .vjs-big-play-button{
+  display: none;
+}
