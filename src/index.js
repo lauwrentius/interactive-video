@@ -5,6 +5,7 @@ import { Router } from 'react-router'
 import createHistory from 'history/createBrowserHistory'
 import { createStore, applyMiddleware, compose } from 'redux'
 import { Provider } from 'react-redux'
+import thunkMiddleware from 'redux-thunk'
 
 
 import './index.css';
@@ -29,7 +30,7 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 export const store = createStore(
   reducer,
   composeEnhancers(
-    applyMiddleware(logger)
+    applyMiddleware(thunkMiddleware, logger)
   )
 )
 

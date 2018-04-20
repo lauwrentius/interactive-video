@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import PropTypes from 'prop-types'
 
 import TextComponent from 'components/TextComponent'
 import ButtonComponent from 'components/ButtonComponent'
@@ -8,9 +7,7 @@ import DragDropComponent from 'components/DragDropComponent'
 
 
 class Overlays extends Component {
-  // static propTypes = {
-  //   items: PropTypes.array.isRequired
-  // }
+
   render(){
     const {interactionState} = this.props
     const overlays = (interactionState.overlays)?interactionState.overlays:[]
@@ -25,6 +22,7 @@ class Overlays extends Component {
           if(o.type === "button"){
             return(<ButtonComponent key={i} data={o} />)
           }
+          return ''
         })}
       </div>
     )

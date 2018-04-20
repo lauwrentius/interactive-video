@@ -3,12 +3,19 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
 import $ from 'jquery'
-import 'jquery-ui/ui/core'
-import 'jquery-ui/ui/widgets/draggable'
-import 'jquery-ui/ui/widgets/droppable'
+// import jquery from 'jquery'
+// import 'jquery-ui/ui/core'
+// import 'jquery-ui/ui/widgets/draggable'
 
-import {initVideo,initInteraction,initSelection} from 'actions'
-import {loadAssetsURL,loadVideoData} from 'utils/api'
+
+import {updateVideo,initSelection} from 'actions'
+import {loadAssetsURL} from 'utils/api'
+
+
+require('jquery')
+require('jquery-ui/ui/core')
+require('jquery-ui/ui/widgets/draggable')
+require('jquery-ui-touch-punch')
 
 const PHONE_BG = 'images/TMphone60by100.png'
 
@@ -22,44 +29,32 @@ class DragDropComponent extends Component {
   }
   constructor(props){
     super(props)
+
     this.dropEl = []
     loadAssetsURL(PHONE_BG).then(res=>{
       this.setState({dropImg:res})
     })
   }
   componentDidMount(){
-    console.log('asdasd',this.dragEl)
-    const {initVideo,initInteraction,initSelection,data,selectionState} = this.props
+
+    const w = window
+
+    // console.log('-->>>',this.dragEl,w)
+    const {initSelection, updateVideo,data,selectionState} = this.props
 
     $(this.dragEl).draggable({
       containment: "parent"
     })
     this.dropEl.map((o,i)=>{
 
-      if(selectionState.prevSelection === i) return
+      if(selectionState.prevSelection === i) return ''
 
-      $(o).droppable({
+      return $(o).droppable({
         drop: (evt,ui) => {
-          // console.log("DROPPED", data.droppableZone[i].url)
           const id = data.droppableZone[i].url
-          //===========loads VIDEO DATA (end + overlays)
-          /*loadVideoData(id).then(res=>{
-            console.log('----DROP',res)
-            initInteraction(res)
-          })
-
-          //===========loads VIDEO URL
-          loadAssetsURL(`${id}.mp4`).then(res=>{
-            initVideo({
-              autoplay: true,
-              poster: "",
-              sources: [{
-                src: res,
-                type: 'video/mp4'
-              }]
-            })
-          })*/
-          loadVideoData(id)
+          w.parent.postMessage(data.droppableZone[i].val, '*')
+          updateVideo(id)
+          // loadVideoData(id)
           initSelection({prevSelection:i})
         }
       })
@@ -78,7 +73,7 @@ class DragDropComponent extends Component {
           ref={el => this.dragEl = el}
           style={{left:`${data.x}px`, top:`${data.y}px`}}>
           { dropImg !== "" &&
-            <img src={dropImg} />
+            <img src={dropImg} alt="phone" />
           }
         </div>
         {data.droppableZone.map((o,i)=>(
@@ -91,7 +86,6 @@ class DragDropComponent extends Component {
             }}
             key={`drop-${i}`}
             ref={el=>this.dropEl[i]=el}>
-            DROP
           </div>
         ))}
       </div>
@@ -109,8 +103,7 @@ function mapStateToProps ({ playbackState,selectionState }) {
 
 function mapDispatchToProps (dispatch) {
   return {
-    initVideo: (data) => dispatch(initVideo(data)),
-    initInteraction: (data) => dispatch(initInteraction(data)),
+    updateVideo: (data) => dispatch(updateVideo(data)),
     initSelection: (data) => dispatch(initSelection(data))
   }
 }

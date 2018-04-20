@@ -4,8 +4,8 @@ import { connect } from 'react-redux'
 import videojs from 'video.js'
 import 'video.js/dist/video-js.min.css'
 
-import { setPlayback,initVideo,initInteraction } from 'actions'
-import {loadAssetsURL,loadVideoData,loadProjectsData} from 'utils/api'
+import { setPlayback,updateVideo } from 'actions'
+// import {loadVideoData} from 'utils/api'
 
 
 class VideoPlayer extends React.Component {
@@ -16,26 +16,46 @@ class VideoPlayer extends React.Component {
       controls: true,
       height: 405,
       width: 720,
-      textTrackSettings: true
+      textTrackSettings: true,
+      bigPlayButton: true,
+      controlBar:{
+        fullscreenToggle: false,
+        // remainingTimeDisplay: false,
+        // progressControl: false
+      }
     }
   }
+
   componentDidMount() {
     // instantiate Video.js
     const {videoJsOptions} = this.state
+    const w = window
 
     const player = videojs(this.videoNode, videoJsOptions, ()=>{
       this.setState({player})
       player.volume(0.25);
+      // player.addRemoteTextTrack({
+      //   kind: "captions",
+      //   // src: videoState.cc,
+      //   TextTrackMode: "showing",
+      //   label:"en",
+      //   default: false
+      // })
+      // player.removeChild('BigPlayButton')
+      // player.controlBar.fullscreenToggle.hide()
 
       player.on('timeupdate', () => {
         this.props.setPlayback({time:player.currentTime()})
       })
       player.on('ended', () => {
-        const {videoState,interactionState} = this.props
-        console.log("ENDED",interactionState)
+        const {interactionState,updateVideo} = this.props
+
+        if(interactionState.complete)
+          w.parent.postMessage("COMPLETED", '*')
+
         if(interactionState.end !== undefined){
-          console.log("LOED END URL")
-          loadVideoData(interactionState.end)
+          updateVideo(interactionState.end)
+          // loadVideoData(interactionState.end)
 
           //===========loads VIDEO URL
           /*loadAssetsURL(`${interactionState.end}.mp4`).then(res=>{
@@ -61,33 +81,28 @@ class VideoPlayer extends React.Component {
   }
   shouldComponentUpdate(nextProps, nextState){
     const {player} = this.state
-    const {videoState,setPlayback} = nextProps
+    const {videoState} = nextProps
 
 
     if(videoState.sources){
+      // player.reset()
+      player.remoteTextTracks().tracks_.map(
+        o=>player.removeRemoteTextTrack(o))
+      // console.log(player.remoteTextTracks())
       player.src(videoState.sources)
-      /*loadAssetsURL(videoState.cc).then(res=>{
+      // let tt = player.remoteTextTracks()
+      // tt[0].src = videoState.cc
+      if(videoState.cc)
         player.addRemoteTextTrack({
-          src: "V1_intro.vtt",
+          src: videoState.cc,
           kind: "captions",
           TextTrackMode: "showing",
           label:"en",
-          default: false
+          default: true
         }, true)
-      })*/
-      // player.addTextTrack({
-      //   kind: "captions",
-      //   src: videoState.cc,
-      //   TextTrackMode: "showing",
-      //   label:"English",
-      //   default: true
-      // })
-      // console.log(player.textTracks())
-      setPlayback({time:0})
-      console.log('videoState.autoplay',videoState.autoplay)
+
       if(videoState.autoplay){
         player.play()
-        console.log("YAAAAAAAY")
       }
 
     }
@@ -106,7 +121,7 @@ class VideoPlayer extends React.Component {
   // see https://github.com/videojs/video.js/pull/3856
   render() {
     const {videoState} = this.props
-    console.log(this.props.videoState)
+    // console.log(this.props.videoState)
     // const crossorigin = "anonymus"
 
     return (
@@ -133,8 +148,9 @@ function mapStateToProps ({ videoState,interactionState }) {
 function mapDispatchToProps (dispatch) {
   return {
     setPlayback: (data) => dispatch(setPlayback(data)),
-    initVideo: (data) => dispatch(initVideo(data)),
-    initInteraction: (data) => dispatch(initInteraction(data)),
+    updateVideo: (data) => dispatch(updateVideo(data)),
+    // initVideo: (data) => dispatch(initVideo(data)),
+    // initInteraction: (data) => dispatch(initInteraction(data)),
   }
 }
 

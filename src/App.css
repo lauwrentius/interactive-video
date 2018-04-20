@@ -38,13 +38,16 @@
   background-color: rgba(255,255,255,.2);
 }
 .dropEl{
-  z-index: 4;  
+  z-index: 4;
   position: absolute;
-  background-color: rgba(255,255,0,.5);
+  background-color: rgba(255,255,0,.1);
 }
 .dropEl.disabled{
   background-color: rgba(60,60,60,.8);
 }
-.video-js .vjs-big-play-button{
+/* .video-js .vjs-big-play-button{
+  display: none;
+} */
+.vjs-texttrack-settings {
   display: none;
 }

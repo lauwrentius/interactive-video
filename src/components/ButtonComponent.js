@@ -8,9 +8,6 @@ class ButtonComponent extends Component {
   static propTypes = {
     data: PropTypes.object.isRequired
   }
-  constructor(props){
-    super(props)
-  }
   buttonClick = (evt) => {
     this.props.initSelection({prevSelection:"RESTART"})
   }
@@ -18,7 +15,8 @@ class ButtonComponent extends Component {
     const {playbackState, data} = this.props
 
     if(!data) return ''
-    if(data.in > playbackState.time || data.out < playbackState.time)
+
+    if(data.in > playbackState.time)
       return ''
 
     return (

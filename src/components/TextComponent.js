@@ -6,10 +6,6 @@ class TextComponent extends Component {
   static propTypes = {
     data: PropTypes.object.isRequired
   }
-  constructor(props){
-    super(props)
-  }
-
   render(){
     const {playbackState, data} = this.props
 
