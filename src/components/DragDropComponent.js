@@ -3,18 +3,15 @@ import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
 import $ from 'jquery'
-// import jquery from 'jquery'
-// import 'jquery-ui/ui/core'
-// import 'jquery-ui/ui/widgets/draggable'
-
+import 'jquery-ui/ui/core'
+import 'jquery-ui/ui/widgets/draggable'
+import 'jquery-ui/ui/widgets/droppable'
 
 import {updateVideo,initSelection} from 'actions'
 import {loadAssetsURL} from 'utils/api'
 
 
-require('jquery')
-require('jquery-ui/ui/core')
-require('jquery-ui/ui/widgets/draggable')
+window.jQuery = window.$ = $;
 require('jquery-ui-touch-punch')
 
 const PHONE_BG = 'images/TMphone60by100.png'
@@ -29,7 +26,6 @@ class DragDropComponent extends Component {
   }
   constructor(props){
     super(props)
-
     this.dropEl = []
     loadAssetsURL(PHONE_BG).then(res=>{
       this.setState({dropImg:res})
