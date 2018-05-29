@@ -8,14 +8,14 @@ import 'jquery-ui/ui/widgets/draggable'
 import 'jquery-ui/ui/widgets/droppable'
 
 import {updateVideo,initSelection} from 'actions'
-import {loadAssetsURL} from 'utils/api'
+// import {loadAssetsURL} from 'utils/api'
 
 
 window.jQuery = window.$ = $;
 require('jquery-ui-touch-punch')
 
-const PHONE_BG = 'images/TMphone60by100.png'
-
+// const PHONE_BG = 'images/TMphone60by100.png'
+const PHONE_BG = 'https://vmgstudios.blob.core.windows.net/images/TMphone60by100.png'
 
 class DragDropComponent extends Component {
   static propTypes = {
@@ -27,9 +27,9 @@ class DragDropComponent extends Component {
   constructor(props){
     super(props)
     this.dropEl = []
-    loadAssetsURL(PHONE_BG).then(res=>{
-      this.setState({dropImg:res})
-    })
+    // loadAssetsURL(PHONE_BG).then(res=>{
+    //   this.setState({dropImg:res})
+    // })
   }
   componentDidMount(){
 

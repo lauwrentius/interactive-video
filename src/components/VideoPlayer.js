@@ -20,8 +20,8 @@ class VideoPlayer extends React.Component {
       bigPlayButton: true,
       controlBar:{
         fullscreenToggle: false,
-        // remainingTimeDisplay: false,
-        // progressControl: false
+        remainingTimeDisplay: false,
+        progressControl: false
       }
     }
   }
@@ -33,16 +33,7 @@ class VideoPlayer extends React.Component {
 
     const player = videojs(this.videoNode, videoJsOptions, ()=>{
       this.setState({player})
-      player.volume(0.25);
-      // player.addRemoteTextTrack({
-      //   kind: "captions",
-      //   // src: videoState.cc,
-      //   TextTrackMode: "showing",
-      //   label:"en",
-      //   default: false
-      // })
-      // player.removeChild('BigPlayButton')
-      // player.controlBar.fullscreenToggle.hide()
+
 
       player.on('timeupdate', () => {
         this.props.setPlayback({time:player.currentTime()})
@@ -53,36 +44,17 @@ class VideoPlayer extends React.Component {
         if(interactionState.complete)
           w.parent.postMessage("COMPLETED", '*')
 
-        if(interactionState.end !== undefined){
+        if(interactionState.end !== null){
           updateVideo(interactionState.end)
-          // loadVideoData(interactionState.end)
-
-          //===========loads VIDEO URL
-          /*loadAssetsURL(`${interactionState.end}.mp4`).then(res=>{
-            this.props.initVideo({
-              autoplay: true,
-              poster: "",
-              sources: [{
-                src: res,
-                type: 'video/mp4'
-              }]
-            })
-          })
-
-          //===========loads VIDEO DATA (end + overlays)
-          loadVideoData(interactionState.end).then(res=>{
-            console.log("END VIDEO DATA",videoState.end, res)
-            this.props.initInteraction(Object.assign({overlays:[]},res))
-          })*/
         }
       })
     });
-    // console.log(player)
   }
-  shouldComponentUpdate(nextProps, nextState){
+  componentDidUpdate(){
     const {player} = this.state
-    const {videoState} = nextProps
+    const {videoState} = this.props
 
+    if(!player) return
 
     if(videoState.sources){
       // player.reset()
@@ -106,9 +78,7 @@ class VideoPlayer extends React.Component {
       }
 
     }
-    return true
   }
-
   // destroy player on unmount
   componentWillUnmount() {
     if (this.player) {

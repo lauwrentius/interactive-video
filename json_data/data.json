@@ -1,0 +1,727 @@
+{
+  "videos":{
+    "V1_intro_1" : {
+      "end" : null,
+      "cc" : "./cc/V1_intro.vtt",
+      "url": "https://vmgstudios.blob.core.windows.net/videos/V1_intro_1.mp4",
+      "overlays" : [
+        {
+          "in" : 64,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 64,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V1_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V1_C_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V1_B_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V1_A_1" : {
+      "end" : "TC1_WV1_1",
+      "cc" : "./cc/V1_A.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_A_1.mp4"
+    },
+    "V1_B_1" : {
+      "end" : "TC1_WV1_1",
+      "cc" : "./cc/V1_B.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_B_1.mp4"
+    },
+    "V1_C_1" : {
+      "end" : "V1_con4_1",
+      "cc" : "./cc/V1_C.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_C_1.mp4"
+    },
+    "TC1_WV1_1":{
+      "end" : null,
+      "cc" : null,
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV1_1.mp4",
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V1_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V1_con2_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V1_con1_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V1_con1_1":{
+      "end" : "V1_con5_1",
+      "cc" : "./cc/V1_con1.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con1_1.mp4"
+    },
+    "V1_con2_1":{
+      "end" : "V1_con5_1",
+      "cc" : "./cc/V1_con2.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con2_1.mp4"
+    },
+    "V1_con3_1":{
+      "end" : "V1_con5_1",
+      "cc" : "./cc/V1_con3.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con3_1.mp4"
+    },
+    "V1_con4_1":{
+      "end" : null,
+      "complete": true,
+      "cc" : "./cc/V1_con4.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con4_1.mp4",
+      "overlays": [
+        {
+          "in": 110,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V1_con5_1":{
+      "end": null,
+      "complete": true,
+      "cc" : "./cc/V1_con5.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con5_1.mp4",
+      "overlays": [
+        {
+          "in": 61,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V2_intro_1" : {
+      "end" : null,
+      "cc" : "./cc/V2_intro.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_intro_1.mp4",
+      "overlays" : [
+        {
+          "in" : 68,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 68,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V2_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":263,"y":271,"w":189,"h":94,
+              "url": "V2_B_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":491,"y":271,"w":189,"h":94,
+              "url": "V2_C_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V2_A_1" : {
+      "end" : "TC1_WV2_1",
+      "cc" : "./cc/V1_A.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_A_1.mp4"
+    },
+    "V2_B_1" : {
+      "end" : "TC1_WV2_1",
+      "cc" : "./cc/V2_B.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_B_1.mp4"
+    },
+    "V2_C_1" : {
+      "end" : "V2_con4_1",
+      "cc" : "./cc/V2_C.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_C_1.mp4"
+    },
+    "TC1_WV2_1":{
+      "end" : null,
+      "cc" : null,
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV2_1.mp4",
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V2_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":263,"y":271,"w":189,"h":94,
+              "url": "V2_con1_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":491,"y":271,"w":189,"h":94,
+              "url": "V2_con2_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V2_con1_1":{
+      "end" : "V2_con5_1",
+      "cc" : "./cc/V2_con1.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con1_1.mp4"
+    },
+    "V2_con2_1":{
+      "end" : "V2_con5_1",
+      "cc" : "./cc/V2_con2.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con2_1.mp4"
+    },
+    "V2_con3_1":{
+      "end" : "V2_con5_1",
+      "cc" : "./cc/V2_con3.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con3_1.mp4"
+    },
+    "V2_con4_1":{
+      "end" : null,
+      "complete": true,
+      "cc" : "./cc/V2_con4.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con4_1.mp4",
+      "overlays": [
+        {
+          "in": 135,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V2_con5_1":{
+      "end": null,
+      "complete": true,
+      "cc" : "./cc/V2_con5.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con5_1.mp4",
+      "overlays": [
+        {
+          "in": 87,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V3_intro_1" : {
+      "end" : null,
+      "cc" : "./cc/V3_intro.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_intro_1.mp4",
+      "overlays" : [
+        {
+          "in" : 87,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 87,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":32, "y":271,"w":189,"h":94,
+              "url": "V3_B_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":261,"y":271,"w":189,"h":94,
+              "url": "V3_C_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":496,"y":271,"w":189,"h":94,
+              "url": "V3_A_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V3_A_1" : {
+      "end" : "TC1_WV3_1",
+      "cc" : "./cc/V3_A.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_A_1.mp4"
+    },
+    "V3_B_1" : {
+      "end" : "TC1_WV3_1",
+      "cc" : "./cc/V3_B.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_B_1.mp4"
+    },
+    "V3_C_1" : {
+      "end" : "V1_con4_1",
+      "cc" : "./cc/V3_C.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_C_1.mp4"
+    },
+    "TC1_WV3_1":{
+      "end" : null,
+      "cc" : null,
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV3_1.mp4",
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":32, "y":271,"w":189,"h":94,
+              "url": "V3_con1_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":259,"y":271,"w":189,"h":94,
+              "url": "V3_con2_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":490,"y":271,"w":189,"h":94,
+              "url": "V3_con3_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V3_con1_1":{
+      "end" : "V3_con5_1",
+      "cc" : "./cc/V3_con1.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con1_1.mp4"
+    },
+    "V3_con2_1":{
+      "end" : "V3_con5_1",
+      "cc" : "./cc/V3_con2.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con2_1.mp4"
+    },
+    "V3_con3_1":{
+      "end" : "V3_con5_1",
+      "cc" : "./cc/V3_con3.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con3_1.mp4"
+    },
+    "V3_con4_1":{
+      "end" : null,
+      "complete": true,
+      "cc" : "./cc/V3_con4.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con4_1.mp4",
+      "overlays": [
+        {
+          "in": 110,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V3_con5_1":{
+      "end": null,
+      "complete": true,
+      "cc" : "./cc/V3_con5.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con5_1.mp4",
+      "overlays": [
+        {
+          "in": 78,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V4_intro_1":{
+      "end" : null,
+      "cc" : "./cc/V4_intro.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_intro_1.mp4",
+      "overlays" : [
+        {
+          "in" : 84,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 84,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V4_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V4_B_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":498,"y":271,"w":189,"h":94,
+              "url": "V4_C_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V4_A_1" : {
+      "end" : "TC1_WV4_1",
+      "cc" : "./cc/V4_A.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_A_1.mp4"
+    },
+    "V4_B_1" : {
+      "end" : "TC1_WV4_1",
+      "cc" : "./cc/V4_B.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_B_1.mp4"
+    },
+    "V4_C_1" : {
+      "end" : "V4_con4_1",
+      "cc" : "./cc/V4_C.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_C_1.mp4"
+    },
+    "TC1_WV4_1":{
+      "end" : null,
+      "cc" : null,
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV4_1.mp4",
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V4_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V4_con1_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":498,"y":271,"w":189,"h":94,
+              "url": "V4_con2_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V4_con1_1":{
+      "end" : "V4_con5_1",
+      "cc" : "./cc/V4_con1.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con1_1.mp4"
+    },
+    "V4_con2_1":{
+      "end" : "V4_con5_1",
+      "cc" : "./cc/V4_con2.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con2_1.mp4"
+    },
+    "V4_con3_1":{
+      "end" : "V4_con5_1",
+      "cc" : "./cc/V4_con3.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con3_1.mp4"
+    },
+    "V4_con4_1":{
+      "end" : null,
+      "complete": true,
+      "cc" : "./cc/V4_con4.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con4_1.mp4",
+      "overlays": [
+        {
+          "in": 149,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V4_con5_1":{
+      "end": null,
+      "complete": true,
+      "cc" : "./cc/V4_con5.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con5_1.mp4",
+      "overlays": [
+        {
+          "in": 69,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V5_intro_1" : {
+      "end" : null,
+      "cc" : "./cc/V5_intro.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_intro_1.mp4",
+      "overlays" : [
+        {
+          "in" : 78,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 78,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V5_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V5_C_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V5_B_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V5_A_1" : {
+      "end" : "TC1_WV5_1",
+      "cc" : "./cc/V5_A.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_A_1.mp4"
+    },
+    "V5_B_1" : {
+      "end" : "TC1_WV5_1",
+      "cc" : "./cc/V5_B.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_B_1.mp4"
+    },
+    "V5_C_1" : {
+      "end" : "V5_con4_1",
+      "cc" : "./cc/V5_C.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_C_1.mp4"
+    },
+    "TC1_WV5_1":{
+      "end" : null,
+      "cc" : null,
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV5_1.mp4",
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V5_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":261,"y":271,"w":189,"h":94,
+              "url": "V5_con2_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V5_con1_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V5_con1_1":{
+      "end" : "V5_con5_1",
+      "cc" : "./cc/V5_con1.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con1_1.mp4"
+    },
+    "V5_con2_1":{
+      "end" : "V5_con5_1",
+      "cc" : "./cc/V5_con2.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con2_1.mp4"
+    },
+    "V5_con3_1":{
+      "end" : "V5_con5_1",
+      "cc" : "./cc/V5_con3.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con3_1.mp4"
+    },
+    "V5_con4_1":{
+      "end" : null,
+      "complete": true,
+      "cc" : "./cc/V5_con4.vtt",
+        "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con4_1.mp4",
+      "overlays": [
+        {
+          "in": 114,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V5_con5_1":{
+      "end": null,
+      "complete": true,
+      "cc" : "./cc/V5_con5.vtt",
+      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con5_1.mp4",
+      "overlays": [
+        {
+          "in": 78,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    }
+  },
+  "projects":{
+    "video1":{
+      "entry": "V1_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-01.png",
+      "title": "T-Mobile 1 - Make it Personal"
+    },
+    "video2":{
+      "entry": "V2_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-02.png",
+      "title": "T-Mobile 2 - Explore and Discover"
+    },
+    "video3":{
+      "entry": "V3_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-03.png",
+      "title": "T-Mobile 3 - Guide the Purchase"
+    },
+    "video4":{
+      "entry": "V4_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-04.png",
+      "title": "T-Mobile 4 - Problem Solved"
+    },
+    "video5":{
+      "entry": "V5_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-05.png",
+      "title": "T-Mobile 5 - Stay Connected"
+    }
+  }
+}

@@ -9,7 +9,7 @@ import Overlays from 'components/Overlays'
 
 import './App.css';
 
-const PROJECT1_ID = 'f94712431d8c40d3a13b968d472733fb'
+const PROJECT1_ID = 'video1'
 
 class App extends Component {
   state = {

@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { INIT_PROJECT, UPDATE_VIDEO, INIT_VIDEO, SET_VIDEO, INIT_INTERACTION, SET_INTERACTION, SET_PLAYBACK,INIT_SELECTION } from 'actions'
+import { INIT_PROJECT, UPDATE_VIDEO, SET_PLAYBACK,INIT_SELECTION } from 'actions'
 
 // poster: projData.poster,
 //   //     autoplay: false,
@@ -31,11 +31,6 @@ function videoState (state = {}, action) {
           type: 'video/mp4'
         }]
       }
-
-    case INIT_VIDEO:
-      return Object.assign({},action.video)
-    case SET_VIDEO:
-      return Object.assign({},state,action.video)
     default:
       return state
   }
@@ -45,15 +40,11 @@ function interactionState (state = {overlays:[]}, action) {
   const {obj} = action
   switch (action.type){
     case INIT_PROJECT:
-      return {overlays:obj.overlays}
+      return {overlays:obj.overlays, end:obj.end}
 
     case UPDATE_VIDEO:
-      return {...action.obj}
+      return {overlays:obj.overlays, end:obj.end}
 
-    case INIT_INTERACTION:
-      return Object.assign({},action.interaction)
-    case SET_INTERACTION:
-      return Object.assign({},state,action.interaction)
     default:
       return state
   }
