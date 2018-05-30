@@ -21,7 +21,7 @@ class VideoPlayer extends React.Component {
       controlBar:{
         fullscreenToggle: false,
         remainingTimeDisplay: false,
-        // progressControl: false
+        progressControl: false
       }
     }
   }
