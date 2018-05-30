@@ -21,7 +21,7 @@ class VideoPlayer extends React.Component {
       controlBar:{
         fullscreenToggle: false,
         remainingTimeDisplay: false,
-        progressControl: false
+        // progressControl: false
       }
     }
   }
@@ -43,6 +43,7 @@ class VideoPlayer extends React.Component {
 
         if(interactionState.complete)
           w.parent.postMessage("COMPLETED", '*')
+
 
         if(interactionState.end !== null){
           updateVideo(interactionState.end)

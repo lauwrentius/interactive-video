@@ -40,10 +40,10 @@ function interactionState (state = {overlays:[]}, action) {
   const {obj} = action
   switch (action.type){
     case INIT_PROJECT:
-      return {overlays:obj.overlays, end:obj.end}
+      return {overlays:obj.overlays, end:obj.end, complete:obj.complete}
 
     case UPDATE_VIDEO:
-      return {overlays:obj.overlays, end:obj.end}
+      return {overlays:obj.overlays, end:obj.end, complete:obj.complete}
 
     default:
       return state

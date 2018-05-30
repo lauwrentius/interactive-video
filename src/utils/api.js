@@ -15,7 +15,7 @@ export function loadProjectsData(id){
 }
 
 export function loadVideoData(id){
-  console.log(json_data['videos'][id])
+  // console.log(json_data['videos'][id])
   return json_data['videos'][id]
 
   // const db = firebase.database().ref()
