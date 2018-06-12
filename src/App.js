@@ -25,9 +25,8 @@ class App extends Component {
   }
   initProject = () => {
     const {location,initProject} = this.props
-    const {pathname} = location
-
-    const id = pathname.substring(1)===""?PROJECT1_ID:pathname.substring(1)
+    const {search} = location
+    const id = search.substring(1)===""?PROJECT1_ID:search.substring(1)
     initProject(id)
   }
 
