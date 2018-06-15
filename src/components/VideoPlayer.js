@@ -5,7 +5,6 @@ import videojs from 'video.js'
 import 'video.js/dist/video-js.min.css'
 
 import { setPlayback,updateVideo } from 'actions'
-// import {loadVideoData} from 'utils/api'
 
 
 class VideoPlayer extends React.Component {
@@ -32,8 +31,8 @@ class VideoPlayer extends React.Component {
     const w = window
 
     const player = videojs(this.videoNode, videoJsOptions, ()=>{
-      this.setState({player})
 
+      this.setState({player})
 
       player.on('timeupdate', () => {
         this.props.setPlayback({time:player.currentTime()})
@@ -58,21 +57,34 @@ class VideoPlayer extends React.Component {
     if(!player) return
 
     if(videoState.sources){
-      // player.reset()
+
       player.remoteTextTracks().tracks_.map(
         o=>player.removeRemoteTextTrack(o))
-      // console.log(player.remoteTextTracks())
+
+
       player.src(videoState.sources)
-      // let tt = player.remoteTextTracks()
-      // tt[0].src = videoState.cc
-      if(videoState.cc)
-        player.addRemoteTextTrack({
-          src: videoState.cc,
-          kind: "captions",
-          TextTrackMode: "showing",
-          label:"en",
-          default: true
-        }, true)
+      this.props.setPlayback({time:0})
+
+
+      if(videoState.cc){
+        fetch(videoState.cc)
+          .then(res=>res.json())
+          .then(res=>{
+            // console.log(res.length)
+            const caption = player.addRemoteTextTrack({
+              kind: "captions",
+              // mode: "showing",
+              label: "en"
+            },true)
+
+            res.forEach(v=>{
+              caption.track.addCue(new VTTCue(v.start,v.end,v.part))
+            })
+            // console.log(caption.track.cues.cues_.length)
+
+          })
+      }
+
 
       if(videoState.autoplay){
         player.play()
@@ -87,13 +99,8 @@ class VideoPlayer extends React.Component {
     }
   }
 
-  // wrap the player in a div with a `data-vjs-player` attribute
-  // so videojs won't create additional wrapper in the DOM
-  // see https://github.com/videojs/video.js/pull/3856
   render() {
     const {videoState} = this.props
-    // console.log(this.props.videoState)
-    // const crossorigin = "anonymus"
 
     return (
       <div>

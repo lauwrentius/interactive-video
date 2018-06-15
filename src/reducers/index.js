@@ -53,9 +53,9 @@ function interactionState (state = {overlays:[]}, action) {
 function playbackState (state = {time:0}, action) {
   switch (action.type){
     case INIT_PROJECT:
-      return {"time":null}
+      return {"time":0}
     case UPDATE_VIDEO:
-      return {"time":null}
+      return {"time":0}
     case SET_PLAYBACK:
       return {...action.playback}
 

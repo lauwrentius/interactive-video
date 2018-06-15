@@ -1,7 +1,7 @@
 // import firebase from 'utils/firebase.js'
 import * as json_data from './data.json'
 
-export function loadAssetsURL(ref){
+export function loadAssets(ref){
   // return firebase.storage().ref(ref).getDownloadURL()
   return null
 }

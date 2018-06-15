@@ -2,8 +2,8 @@
   "videos":{
     "V1_intro_1" : {
       "end" : null,
-      "cc" : "./cc/V1_intro.vtt",
-      "url": "https://vmgstudios.blob.core.windows.net/videos/V1_intro_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-002e8416-57b7-4eb6-aea0-c25014b67454/V1_intro.vtt?sv=2015-07-08&sr=c&si=3e7c9c9b-707a-4f97-be09-4e95a92eb6c6&sig=8yIHwZ7Azs87mKX9Zkqdbqof9oKYQ9ZOwFZlM44ycZI%3D&st=2018-05-29T19%3A12%3A59Z&se=2118-05-29T19%3A12%3A59Z",
+      "url": "https://vmgstudios.blob.core.windows.net/asset-002e8416-57b7-4eb6-aea0-c25014b67454/V1_intro_1.mp4?sv=2015-07-08&sr=c&si=3e7c9c9b-707a-4f97-be09-4e95a92eb6c6&sig=8yIHwZ7Azs87mKX9Zkqdbqof9oKYQ9ZOwFZlM44ycZI%3D&st=2018-05-29T19%3A12%3A59Z&se=2118-05-29T19%3A12%3A59Z",
       "overlays" : [
         {
           "in" : 64,
@@ -38,23 +38,23 @@
     },
     "V1_A_1" : {
       "end" : "TC1_WV1_1",
-      "cc" : "./cc/V1_A.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_A_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-5ddf834c-85d2-49e2-9db7-85419e84c5e5/V1_A.vtt?sv=2015-07-08&sr=c&si=0d47c03e-edf2-47a7-a6b6-c5adf70ba400&sig=OVVnzMowCco8ZsNNPss8djA3gWr%2FTEHaeBRT%2B%2FSOTdE%3D&st=2018-05-29T19%3A19%3A44Z&se=2118-05-29T19%3A19%3A44Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-5ddf834c-85d2-49e2-9db7-85419e84c5e5/V1_A_1.mp4?sv=2015-07-08&sr=c&si=0d47c03e-edf2-47a7-a6b6-c5adf70ba400&sig=OVVnzMowCco8ZsNNPss8djA3gWr%2FTEHaeBRT%2B%2FSOTdE%3D&st=2018-05-29T19%3A19%3A44Z&se=2118-05-29T19%3A19%3A44Z"
     },
     "V1_B_1" : {
       "end" : "TC1_WV1_1",
-      "cc" : "./cc/V1_B.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_B_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-f02795a0-5786-4615-a0e9-b18cf0d8c56b/V1_B.vtt?sv=2015-07-08&sr=c&si=8345afee-8670-4878-9265-113a3bf355ae&sig=yHtW6bxrTCCG%2FvoL7X69%2F3%2FlHhADrG%2BRXLa15j8oejU%3D&st=2018-05-29T19%3A20%3A27Z&se=2118-05-29T19%3A20%3A27Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-f02795a0-5786-4615-a0e9-b18cf0d8c56b/V1_B_1.mp4?sv=2015-07-08&sr=c&si=8345afee-8670-4878-9265-113a3bf355ae&sig=yHtW6bxrTCCG%2FvoL7X69%2F3%2FlHhADrG%2BRXLa15j8oejU%3D&st=2018-05-29T19%3A20%3A27Z&se=2118-05-29T19%3A20%3A27Z"
     },
     "V1_C_1" : {
       "end" : "V1_con4_1",
-      "cc" : "./cc/V1_C.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_C_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-0afd28f4-51e8-4290-898b-be89a676c195/V1_C.vtt?sv=2015-07-08&sr=c&si=afd74a43-d86b-4dbc-8670-a09a56dd0159&sig=yyYjx6ol5MsDOE4aMo8fMe62Zblk%2B9NE64iTbqJPJ6A%3D&st=2018-05-29T19%3A20%3A59Z&se=2118-05-29T19%3A20%3A59Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-0afd28f4-51e8-4290-898b-be89a676c195/V1_C_1.mp4?sv=2015-07-08&sr=c&si=afd74a43-d86b-4dbc-8670-a09a56dd0159&sig=yyYjx6ol5MsDOE4aMo8fMe62Zblk%2B9NE64iTbqJPJ6A%3D&st=2018-05-29T19%3A20%3A59Z&se=2118-05-29T19%3A20%3A59Z"
     },
     "TC1_WV1_1":{
       "end" : null,
       "cc" : null,
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV1_1.mp4",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-8315fde5-2b7b-4e67-996f-101eddbb606b/TC1_WV1_1.mp4?sv=2015-07-08&sr=c&si=ad0aaedc-450f-4b9b-a806-d77d7d85ee1a&sig=s9NF6ScCmc62t%2FP8Dn3Kr0TGek5ByO8ACYO7WZKF3zc%3D&st=2018-05-29T17%3A34%3A49Z&se=2118-05-29T17%3A34%3A49Z",
       "overlays" : [
         {
           "in" : 6,
@@ -89,24 +89,24 @@
     },
     "V1_con1_1":{
       "end" : "V1_con5_1",
-      "cc" : "./cc/V1_con1.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con1_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-79b0b70f-227f-4491-8c67-8d24caa46645/V1_con1.vtt?sv=2015-07-08&sr=c&si=1c67078e-2087-4a00-9ba6-2db3e72b5af3&sig=vkLtoAM7OczHZxvZB5vzJHpQhW6NdR%2BmDft3ZSdjiOg%3D&st=2018-05-29T19%3A22%3A43Z&se=2118-05-29T19%3A22%3A43Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-79b0b70f-227f-4491-8c67-8d24caa46645/V1_con1_1.mp4?sv=2015-07-08&sr=c&si=1c67078e-2087-4a00-9ba6-2db3e72b5af3&sig=vkLtoAM7OczHZxvZB5vzJHpQhW6NdR%2BmDft3ZSdjiOg%3D&st=2018-05-29T19%3A22%3A43Z&se=2118-05-29T19%3A22%3A43Z"
     },
     "V1_con2_1":{
       "end" : "V1_con5_1",
-      "cc" : "./cc/V1_con2.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con2_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-b3bca8a4-b778-4f4e-bc47-39a204e434f9/V1_con2.vtt?sv=2015-07-08&sr=c&si=851bf607-dd1d-4c12-bf9b-b09b11dedc80&sig=AtFTI2o4DPfijDSniUjfwO2SBFW5GzKf0LL3YyTAS4s%3D&st=2018-05-29T20%3A28%3A50Z&se=2118-05-29T20%3A28%3A50Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-b3bca8a4-b778-4f4e-bc47-39a204e434f9/V1_con2_1.mp4?sv=2015-07-08&sr=c&si=851bf607-dd1d-4c12-bf9b-b09b11dedc80&sig=AtFTI2o4DPfijDSniUjfwO2SBFW5GzKf0LL3YyTAS4s%3D&st=2018-05-29T20%3A28%3A50Z&se=2118-05-29T20%3A28%3A50Z"
     },
     "V1_con3_1":{
       "end" : "V1_con5_1",
-      "cc" : "./cc/V1_con3.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con3_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-874fd672-a0c0-44dc-8cf0-f57559688631/V1_con3.vtt?sv=2015-07-08&sr=c&si=f46274fa-6a5c-4b3c-ac48-d255ed1975e0&sig=JqKq6Pb5j5C03OgquM5EQDh2hkIlmCPN7wdqYpG%2BYzE%3D&st=2018-05-29T19%3A26%3A17Z&se=2118-05-29T19%3A26%3A17Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-874fd672-a0c0-44dc-8cf0-f57559688631/V1_con3_1.mp4?sv=2015-07-08&sr=c&si=f46274fa-6a5c-4b3c-ac48-d255ed1975e0&sig=JqKq6Pb5j5C03OgquM5EQDh2hkIlmCPN7wdqYpG%2BYzE%3D&st=2018-05-29T19%3A26%3A17Z&se=2118-05-29T19%3A26%3A17Z"
     },
     "V1_con4_1":{
       "end" : null,
       "complete": true,
-      "cc" : "./cc/V1_con4.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con4_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-838f78da-aeee-48a5-bdf1-5b187a8de6d4/V1_con4.vtt?sv=2015-07-08&sr=c&si=0f6504e4-38e0-4b9c-96dd-3daafc4aa17a&sig=DA2UZKCCxZxEZ%2B7m%2F%2B0dt8p78ktgZkNGsEz5yNg1fF0%3D&st=2018-05-29T19%3A26%3A55Z&se=2118-05-29T19%3A26%3A55Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-838f78da-aeee-48a5-bdf1-5b187a8de6d4/V1_con4_1.mp4?sv=2015-07-08&sr=c&si=0f6504e4-38e0-4b9c-96dd-3daafc4aa17a&sig=DA2UZKCCxZxEZ%2B7m%2F%2B0dt8p78ktgZkNGsEz5yNg1fF0%3D&st=2018-05-29T19%3A26%3A55Z&se=2118-05-29T19%3A26%3A55Z",
       "overlays": [
         {
           "in": 110,
@@ -122,8 +122,8 @@
     "V1_con5_1":{
       "end": null,
       "complete": true,
-      "cc" : "./cc/V1_con5.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V1_con5_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-e5f44b4c-0b7f-4959-8656-ada5943cf1c5/V1_con5.vtt?sv=2015-07-08&sr=c&si=a19b55e4-3046-4f65-a58c-5b86009ad35b&sig=R3ordEkJtOJOSVZVmHji%2FS2%2BlDS4vbQlsh5tj721jow%3D&st=2018-05-29T20%3A31%3A07Z&se=2118-05-29T20%3A31%3A07Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-e5f44b4c-0b7f-4959-8656-ada5943cf1c5/V1_con5_1.mp4?sv=2015-07-08&sr=c&si=a19b55e4-3046-4f65-a58c-5b86009ad35b&sig=R3ordEkJtOJOSVZVmHji%2FS2%2BlDS4vbQlsh5tj721jow%3D&st=2018-05-29T20%3A31%3A07Z&se=2118-05-29T20%3A31%3A07Z",
       "overlays": [
         {
           "in": 61,
@@ -142,8 +142,8 @@
 
     "V2_intro_1" : {
       "end" : null,
-      "cc" : "./cc/V2_intro.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_intro_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-23ce8f7f-5bf3-44c2-af22-ccbfee42340c/V2_intro.vtt?sv=2015-07-08&sr=c&si=9fdf8980-18ef-48d4-87c8-0b82432037ee&sig=TfDw1Nr77E58zslf1XlTuCgUSq2uHRxFAaMwmeF15pA%3D&st=2018-05-29T17%3A39%3A26Z&se=2118-05-29T17%3A39%3A26Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-23ce8f7f-5bf3-44c2-af22-ccbfee42340c/V2_intro_1.mp4?sv=2015-07-08&sr=c&si=9fdf8980-18ef-48d4-87c8-0b82432037ee&sig=TfDw1Nr77E58zslf1XlTuCgUSq2uHRxFAaMwmeF15pA%3D&st=2018-05-29T17%3A39%3A26Z&se=2118-05-29T17%3A39%3A26Z",
       "overlays" : [
         {
           "in" : 68,
@@ -178,23 +178,23 @@
     },
     "V2_A_1" : {
       "end" : "TC1_WV2_1",
-      "cc" : "./cc/V1_A.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_A_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-a7d69dc9-840c-4525-9e52-e890f1422956/V2_A.vtt?sv=2015-07-08&sr=c&si=30b2f032-d64b-4955-a22d-f3bbaebc451a&sig=PD7J9Jvxt%2FLljO6Q10hDqpnfXOWWD%2FvMpjdE5RtwWV4%3D&st=2018-05-29T17%3A53%3A07Z&se=2118-05-29T17%3A53%3A07Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-a7d69dc9-840c-4525-9e52-e890f1422956/V2_A_1.mp4?sv=2015-07-08&sr=c&si=30b2f032-d64b-4955-a22d-f3bbaebc451a&sig=PD7J9Jvxt%2FLljO6Q10hDqpnfXOWWD%2FvMpjdE5RtwWV4%3D&st=2018-05-29T17%3A53%3A07Z&se=2118-05-29T17%3A53%3A07Z"
     },
     "V2_B_1" : {
       "end" : "TC1_WV2_1",
-      "cc" : "./cc/V2_B.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_B_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-f73e6f16-5c95-4737-a374-968d32f60853/V2_B.vtt?sv=2015-07-08&sr=c&si=b6374312-45c5-421d-84d5-48496d343103&sig=PXjkutj8y1ytd5%2FDR3vluqrQcM%2Bkk6%2BJ3J3FYXCJwGg%3D&st=2018-05-29T17%3A53%3A57Z&se=2118-05-29T17%3A53%3A57Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-f73e6f16-5c95-4737-a374-968d32f60853/V2_B_1.mp4?sv=2015-07-08&sr=c&si=b6374312-45c5-421d-84d5-48496d343103&sig=PXjkutj8y1ytd5%2FDR3vluqrQcM%2Bkk6%2BJ3J3FYXCJwGg%3D&st=2018-05-29T17%3A53%3A57Z&se=2118-05-29T17%3A53%3A57Z"
     },
     "V2_C_1" : {
       "end" : "V2_con4_1",
-      "cc" : "./cc/V2_C.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_C_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-53072777-7818-416f-8a2f-92685849f5b4/V2_C.vtt?sv=2015-07-08&sr=c&si=bcd35c44-5ef4-4eae-9a2d-baaa514e7b44&sig=f4m5TvYPx6d9KXxLwsjCZSx5SSRHWmTQc3PMlzuxecE%3D&st=2018-05-29T21%3A11%3A32Z&se=2118-05-29T21%3A11%3A32Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-53072777-7818-416f-8a2f-92685849f5b4/V2_C_1.mp4?sv=2015-07-08&sr=c&si=bcd35c44-5ef4-4eae-9a2d-baaa514e7b44&sig=f4m5TvYPx6d9KXxLwsjCZSx5SSRHWmTQc3PMlzuxecE%3D&st=2018-05-29T21%3A11%3A32Z&se=2118-05-29T21%3A11%3A32Z"
     },
     "TC1_WV2_1":{
       "end" : null,
       "cc" : null,
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV2_1.mp4",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-21f2784a-7eda-439d-9660-d0af4727e531/TC1_WV2_1.mp4?sv=2015-07-08&sr=c&si=41bc3f18-b01b-4702-a0a1-bfbcba068abc&sig=vRzGxNU55suZmmXARjjxYxpKhgnTvIDbXjh3xVso9So%3D&st=2018-05-29T21%3A12%3A13Z&se=2118-05-29T21%3A12%3A13Z",
       "overlays" : [
         {
           "in" : 6,
@@ -229,24 +229,24 @@
     },
     "V2_con1_1":{
       "end" : "V2_con5_1",
-      "cc" : "./cc/V2_con1.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con1_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-c358e18e-15cb-42a1-8e6d-f3ce771667cc/V2_con1.vtt?sv=2015-07-08&sr=c&si=5d690601-7b10-4df1-9280-f5551bd36521&sig=wFiPSkw8W03MSSPRcm0mwzaNxGKpLmjp12o7GkCBI60%3D&st=2018-05-29T17%3A55%3A09Z&se=2118-05-29T17%3A55%3A09Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-c358e18e-15cb-42a1-8e6d-f3ce771667cc/V2_con1_1.mp4?sv=2015-07-08&sr=c&si=5d690601-7b10-4df1-9280-f5551bd36521&sig=wFiPSkw8W03MSSPRcm0mwzaNxGKpLmjp12o7GkCBI60%3D&st=2018-05-29T17%3A55%3A09Z&se=2118-05-29T17%3A55%3A09Z"
     },
     "V2_con2_1":{
       "end" : "V2_con5_1",
-      "cc" : "./cc/V2_con2.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con2_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-eb388358-514c-48dd-a66b-cce98b765a16/V2_con2.vtt?sv=2015-07-08&sr=c&si=467a7bf4-2fbf-4244-b823-954da12273a4&sig=AWKEcF9DHoKcEcGMuW2C2p0mjZpAsCvNvT3ZuoKAJvQ%3D&st=2018-05-29T17%3A55%3A29Z&se=2118-05-29T17%3A55%3A29Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-eb388358-514c-48dd-a66b-cce98b765a16/V2_con2_1.mp4?sv=2015-07-08&sr=c&si=467a7bf4-2fbf-4244-b823-954da12273a4&sig=AWKEcF9DHoKcEcGMuW2C2p0mjZpAsCvNvT3ZuoKAJvQ%3D&st=2018-05-29T17%3A55%3A29Z&se=2118-05-29T17%3A55%3A29Z"
     },
     "V2_con3_1":{
       "end" : "V2_con5_1",
-      "cc" : "./cc/V2_con3.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con3_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-e33194c4-07e3-4b78-984c-8e02860b2106/V2_con3.vtt?sv=2015-07-08&sr=c&si=623c625b-53ad-4cdb-bf1e-396d3242d8f5&sig=tn%2B9glePnpkO0MMZOfSvzUuV4a%2F0J%2B6UMTCNCV2h01U%3D&st=2018-05-29T17%3A57%3A12Z&se=2118-05-29T17%3A57%3A12Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-e33194c4-07e3-4b78-984c-8e02860b2106/V2_con3_1.mp4?sv=2015-07-08&sr=c&si=623c625b-53ad-4cdb-bf1e-396d3242d8f5&sig=tn%2B9glePnpkO0MMZOfSvzUuV4a%2F0J%2B6UMTCNCV2h01U%3D&st=2018-05-29T17%3A57%3A12Z&se=2118-05-29T17%3A57%3A12Z"
     },
     "V2_con4_1":{
       "end" : null,
       "complete": true,
-      "cc" : "./cc/V2_con4.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con4_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-92d25bf8-62f0-43a0-9269-d0c772d194df/V2_con4.vtt?sv=2015-07-08&sr=c&si=a805f0ab-1e9c-4dd8-a3bd-d52bed05bb0d&sig=QFi14w5tpkwUIcfhGFeyzy2%2FECiTbYQrixnIXaovoc0%3D&st=2018-05-29T17%3A57%3A33Z&se=2118-05-29T17%3A57%3A33Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-92d25bf8-62f0-43a0-9269-d0c772d194df/V2_con4_1.mp4?sv=2015-07-08&sr=c&si=a805f0ab-1e9c-4dd8-a3bd-d52bed05bb0d&sig=QFi14w5tpkwUIcfhGFeyzy2%2FECiTbYQrixnIXaovoc0%3D&st=2018-05-29T17%3A57%3A33Z&se=2118-05-29T17%3A57%3A33Z",
       "overlays": [
         {
           "in": 135,
@@ -262,8 +262,8 @@
     "V2_con5_1":{
       "end": null,
       "complete": true,
-      "cc" : "./cc/V2_con5.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V2_con5_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-204ced6d-d241-44ed-905d-70964beb3bfa/V2_con5.vtt?sv=2015-07-08&sr=c&si=59de1fb9-777c-4291-992f-3e6ce916f182&sig=%2BCrYxcwUlFT%2FFL%2FwV%2FbI4hRwuwR0FPKGQbnk5ST%2BGq0%3D&st=2018-05-29T21%3A30%3A24Z&se=2118-05-29T21%3A30%3A24Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-204ced6d-d241-44ed-905d-70964beb3bfa/V2_con5_1.mp4?sv=2015-07-08&sr=c&si=59de1fb9-777c-4291-992f-3e6ce916f182&sig=%2BCrYxcwUlFT%2FFL%2FwV%2FbI4hRwuwR0FPKGQbnk5ST%2BGq0%3D&st=2018-05-29T21%3A30%3A24Z&se=2118-05-29T21%3A30%3A24Z",
       "overlays": [
         {
           "in": 87,
@@ -282,8 +282,8 @@
 
     "V3_intro_1" : {
       "end" : null,
-      "cc" : "./cc/V3_intro.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_intro_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-18316c05-c674-40ba-a668-67463c1fa044/V3_intro.vtt?sv=2015-07-08&sr=c&si=76f7c8aa-340c-4812-8837-4a5b0b4fa685&sig=8NshBuU3%2BXYgggjl2r%2BCUJeQeMcraL7zgHmlAJOp0j4%3D&st=2018-05-29T22%3A19%3A10Z&se=2118-05-29T22%3A19%3A10Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-18316c05-c674-40ba-a668-67463c1fa044/V3_intro_1.mp4?sv=2015-07-08&sr=c&si=76f7c8aa-340c-4812-8837-4a5b0b4fa685&sig=8NshBuU3%2BXYgggjl2r%2BCUJeQeMcraL7zgHmlAJOp0j4%3D&st=2018-05-29T22%3A19%3A10Z&se=2118-05-29T22%3A19%3A10Z",
       "overlays" : [
         {
           "in" : 87,
@@ -318,23 +318,23 @@
     },
     "V3_A_1" : {
       "end" : "TC1_WV3_1",
-      "cc" : "./cc/V3_A.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_A_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-f5a4657c-db70-4db8-8bf2-148c1ec3b53c/V3_A.vtt?sv=2015-07-08&sr=c&si=8e493792-df4b-45f6-9f62-9a250e16af54&sig=DmQ%2BUUDXyld07b4rhREtBnaPiI4ffd1RZy74SjAC6Ys%3D&st=2018-05-29T22%3A20%3A05Z&se=2118-05-29T22%3A20%3A05Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-f5a4657c-db70-4db8-8bf2-148c1ec3b53c/V3_A_1.mp4?sv=2015-07-08&sr=c&si=8e493792-df4b-45f6-9f62-9a250e16af54&sig=DmQ%2BUUDXyld07b4rhREtBnaPiI4ffd1RZy74SjAC6Ys%3D&st=2018-05-29T22%3A20%3A05Z&se=2118-05-29T22%3A20%3A05Z"
     },
     "V3_B_1" : {
       "end" : "TC1_WV3_1",
-      "cc" : "./cc/V3_B.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_B_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-aed1fb42-21c3-4a0b-aea3-c1aff3c265ca/V3_B.vtt?sv=2015-07-08&sr=c&si=2a898f2c-67d7-4394-a2d0-87c4d8791216&sig=Yv%2BJHsP8te3tGbk9L4VwScUW8gEZy4xkXMoFNFESvck%3D&st=2018-05-29T22%3A20%3A46Z&se=2118-05-29T22%3A20%3A46Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-aed1fb42-21c3-4a0b-aea3-c1aff3c265ca/V3_B_1.mp4?sv=2015-07-08&sr=c&si=2a898f2c-67d7-4394-a2d0-87c4d8791216&sig=Yv%2BJHsP8te3tGbk9L4VwScUW8gEZy4xkXMoFNFESvck%3D&st=2018-05-29T22%3A20%3A46Z&se=2118-05-29T22%3A20%3A46Z"
     },
     "V3_C_1" : {
       "end" : "V1_con4_1",
-      "cc" : "./cc/V3_C.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_C_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-c76365e3-96a2-425f-871e-36d5bdd1d25c/V3_C.vtt?sv=2015-07-08&sr=c&si=e12c7cc6-bc2f-4236-9be1-842e0d74a2af&sig=xFRlsSf%2FmYWuqUi22vefkBO2%2F3De3Vacil%2FLa11UY6I%3D&st=2018-05-29T22%3A21%3A28Z&se=2118-05-29T22%3A21%3A28Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-c76365e3-96a2-425f-871e-36d5bdd1d25c/V3_C_1.mp4?sv=2015-07-08&sr=c&si=e12c7cc6-bc2f-4236-9be1-842e0d74a2af&sig=xFRlsSf%2FmYWuqUi22vefkBO2%2F3De3Vacil%2FLa11UY6I%3D&st=2018-05-29T22%3A21%3A28Z&se=2118-05-29T22%3A21%3A28Z"
     },
     "TC1_WV3_1":{
       "end" : null,
       "cc" : null,
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV3_1.mp4",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-fd0c2c6c-e19b-4a6e-b121-d3311cb34cd9/TC1_WV3_1.mp4?sv=2015-07-08&sr=c&si=6a086f98-3ce3-4abc-99c7-ba69650be329&sig=jOU46qTJe%2BBenOA2Rs5Cko7FWSp%2BU3cm9VChbFiEdZw%3D&st=2018-05-29T22%3A22%3A13Z&se=2118-05-29T22%3A22%3A13Z",
       "overlays" : [
         {
           "in" : 6,
@@ -369,24 +369,24 @@
     },
     "V3_con1_1":{
       "end" : "V3_con5_1",
-      "cc" : "./cc/V3_con1.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con1_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-04034539-8f59-4785-96bd-26c4b09f3022/V3_con1.vtt?sv=2015-07-08&sr=c&si=cc09b8a0-80f9-4a0a-a784-bb477f459bbf&sig=cx8ocUn7wcJoUr5L1RqK8te2CY4S6PoXH6mk4YgTAr4%3D&st=2018-05-29T22%3A22%3A43Z&se=2118-05-29T22%3A22%3A43Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-04034539-8f59-4785-96bd-26c4b09f3022/V3_con1_1.mp4?sv=2015-07-08&sr=c&si=cc09b8a0-80f9-4a0a-a784-bb477f459bbf&sig=cx8ocUn7wcJoUr5L1RqK8te2CY4S6PoXH6mk4YgTAr4%3D&st=2018-05-29T22%3A22%3A43Z&se=2118-05-29T22%3A22%3A43Z"
     },
     "V3_con2_1":{
       "end" : "V3_con5_1",
-      "cc" : "./cc/V3_con2.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con2_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-0d3caa41-fa89-47a2-b011-7ea26bd7d546/V3_con2.vtt?sv=2015-07-08&sr=c&si=9c77b065-e30b-4d9b-9b6a-714e3e68d773&sig=0mrgtwFH%2BpgzeXaPfg6Qm3pAytf5oWjXrCCSU69Q8fk%3D&st=2018-05-29T22%3A23%3A15Z&se=2118-05-29T22%3A23%3A15Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-0d3caa41-fa89-47a2-b011-7ea26bd7d546/V3_con2_1.mp4?sv=2015-07-08&sr=c&si=9c77b065-e30b-4d9b-9b6a-714e3e68d773&sig=0mrgtwFH%2BpgzeXaPfg6Qm3pAytf5oWjXrCCSU69Q8fk%3D&st=2018-05-29T22%3A23%3A15Z&se=2118-05-29T22%3A23%3A15Z"
     },
     "V3_con3_1":{
       "end" : "V3_con5_1",
-      "cc" : "./cc/V3_con3.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con3_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-6f80b1a8-5b6b-4276-a96c-11eb240342f5/V3_con3.vtt?sv=2015-07-08&sr=c&si=c496190d-2e88-4cf1-894d-8ca37a3e7b07&sig=GwwbWD5VijpiXDksOpS5O143IyBo25PxYYekoa%2Btc9U%3D&st=2018-05-29T22%3A23%3A59Z&se=2118-05-29T22%3A23%3A59Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-6f80b1a8-5b6b-4276-a96c-11eb240342f5/V3_con3_1.mp4?sv=2015-07-08&sr=c&si=c496190d-2e88-4cf1-894d-8ca37a3e7b07&sig=GwwbWD5VijpiXDksOpS5O143IyBo25PxYYekoa%2Btc9U%3D&st=2018-05-29T22%3A23%3A59Z&se=2118-05-29T22%3A23%3A59Z"
     },
     "V3_con4_1":{
       "end" : null,
       "complete": true,
-      "cc" : "./cc/V3_con4.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con4_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-699d6fea-1504-4f3f-922a-d588c4227aa6/V3_con4.vtt?sv=2015-07-08&sr=c&si=74f2cb47-f84e-4fef-9496-d1c0216f4cf7&sig=H4baBEh1kCHaw6zUEEPgMG%2FRQaG1WcChdiHkO%2FbPYR8%3D&st=2018-05-29T22%3A25%3A27Z&se=2118-05-29T22%3A25%3A27Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-699d6fea-1504-4f3f-922a-d588c4227aa6/V3_con4.vtt?sv=2015-07-08&sr=c&si=74f2cb47-f84e-4fef-9496-d1c0216f4cf7&sig=H4baBEh1kCHaw6zUEEPgMG%2FRQaG1WcChdiHkO%2FbPYR8%3D&st=2018-05-29T22%3A25%3A27Z&se=2118-05-29T22%3A25%3A27Z",
       "overlays": [
         {
           "in": 110,
@@ -402,8 +402,8 @@
     "V3_con5_1":{
       "end": null,
       "complete": true,
-      "cc" : "./cc/V3_con5.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V3_con5_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-dbbcc623-0e25-4217-8593-99aac9b38d6b/V3_con5.vtt?sv=2015-07-08&sr=c&si=e5324a34-1883-479c-9567-76cc55009445&sig=P2WI44SR7%2FFkDD9cUAG8CwSK8oKXpENeyMgvhWcjrEM%3D&st=2018-05-29T22%3A39%3A14Z&se=2118-05-29T22%3A39%3A14Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-dbbcc623-0e25-4217-8593-99aac9b38d6b/V3_con5_1.mp4?sv=2015-07-08&sr=c&si=e5324a34-1883-479c-9567-76cc55009445&sig=P2WI44SR7%2FFkDD9cUAG8CwSK8oKXpENeyMgvhWcjrEM%3D&st=2018-05-29T22%3A39%3A14Z&se=2118-05-29T22%3A39%3A14Z",
       "overlays": [
         {
           "in": 78,
@@ -422,8 +422,8 @@
 
     "V4_intro_1":{
       "end" : null,
-      "cc" : "./cc/V4_intro.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_intro_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-53922eca-92a4-4f02-b91d-434e8c6e7bba/V4_intro.vtt?sv=2015-07-08&sr=c&si=e2de4a8f-434b-4136-8428-df9da14155cb&sig=ElHdSVJqSvYIFZl7v%2BBrNc%2BLX0RWr2CQ5Zbs%2BSu9DyE%3D&st=2018-05-29T22%3A43%3A52Z&se=2118-05-29T22%3A43%3A52Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-53922eca-92a4-4f02-b91d-434e8c6e7bba/V4_intro_1.mp4?sv=2015-07-08&sr=c&si=e2de4a8f-434b-4136-8428-df9da14155cb&sig=ElHdSVJqSvYIFZl7v%2BBrNc%2BLX0RWr2CQ5Zbs%2BSu9DyE%3D&st=2018-05-29T22%3A43%3A52Z&se=2118-05-29T22%3A43%3A52Z",
       "overlays" : [
         {
           "in" : 84,
@@ -458,23 +458,23 @@
     },
     "V4_A_1" : {
       "end" : "TC1_WV4_1",
-      "cc" : "./cc/V4_A.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_A_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-ef8a20a0-75d4-4a15-b58e-8ac97be2044c/V4_A.vtt?sv=2015-07-08&sr=c&si=04634d91-3959-4430-a764-69434cc2aeb3&sig=18I7%2BQzk%2FRUyk%2BDwGpKRfWhVWYebb4r25AieSt5nhy8%3D&st=2018-05-29T22%3A44%3A33Z&se=2118-05-29T22%3A44%3A33Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-ef8a20a0-75d4-4a15-b58e-8ac97be2044c/V4_A_1.mp4?sv=2015-07-08&sr=c&si=04634d91-3959-4430-a764-69434cc2aeb3&sig=18I7%2BQzk%2FRUyk%2BDwGpKRfWhVWYebb4r25AieSt5nhy8%3D&st=2018-05-29T22%3A44%3A33Z&se=2118-05-29T22%3A44%3A33Z"
     },
     "V4_B_1" : {
       "end" : "TC1_WV4_1",
-      "cc" : "./cc/V4_B.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_B_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-cfc7d65b-3b43-495f-8d57-3b730b880dbf/V4_B.vtt?sv=2015-07-08&sr=c&si=d5c321a3-e1f4-4f6c-9c2a-c620e6cd8301&sig=F6Muw9LyJ%2FNXU8LURFJfLrC6xvRnAQNwaIbxNs8xAQw%3D&st=2018-05-29T22%3A45%3A04Z&se=2118-05-29T22%3A45%3A04Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-cfc7d65b-3b43-495f-8d57-3b730b880dbf/V4_B_1.mp4?sv=2015-07-08&sr=c&si=d5c321a3-e1f4-4f6c-9c2a-c620e6cd8301&sig=F6Muw9LyJ%2FNXU8LURFJfLrC6xvRnAQNwaIbxNs8xAQw%3D&st=2018-05-29T22%3A45%3A04Z&se=2118-05-29T22%3A45%3A04Z"
     },
     "V4_C_1" : {
       "end" : "V4_con4_1",
-      "cc" : "./cc/V4_C.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_C_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-f887d084-adf7-4269-ba53-288ec1338126/V4_C.vtt?sv=2015-07-08&sr=c&si=6f0fc1a5-92b8-47b4-9c12-d28f88139e43&sig=GGEQcWm0TJFgnHvUw0UMXku1opCUSDZvaSziUON2JeA%3D&st=2018-05-29T22%3A45%3A38Z&se=2118-05-29T22%3A45%3A38Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-f887d084-adf7-4269-ba53-288ec1338126/V4_C_1.mp4?sv=2015-07-08&sr=c&si=6f0fc1a5-92b8-47b4-9c12-d28f88139e43&sig=GGEQcWm0TJFgnHvUw0UMXku1opCUSDZvaSziUON2JeA%3D&st=2018-05-29T22%3A45%3A38Z&se=2118-05-29T22%3A45%3A38Z"
     },
     "TC1_WV4_1":{
       "end" : null,
       "cc" : null,
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV4_1.mp4",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-32ea65c1-515c-464d-b645-72ced22182aa/TC1_WV4_1.mp4?sv=2015-07-08&sr=c&si=3d915215-0f7d-44a0-a21f-0853560cd287&sig=StN7gtEjRFF9H3oM9ZOsOrk%2BVaoJ2er4NBtoSwLrjJk%3D&st=2018-05-29T22%3A46%3A18Z&se=2118-05-29T22%3A46%3A18Z",
       "overlays" : [
         {
           "in" : 6,
@@ -509,24 +509,24 @@
     },
     "V4_con1_1":{
       "end" : "V4_con5_1",
-      "cc" : "./cc/V4_con1.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con1_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-82b703bb-bab1-4d8d-9a71-01f18b41f15b/V4_con1.vtt?sv=2015-07-08&sr=c&si=55dc24bf-21ef-42ef-ab18-22d3fd02cdaf&sig=orZb4MSkYl6k%2FoFgco1CpDNmXvw4d5cOgn1FHAzGUa4%3D&st=2018-05-29T22%3A46%3A43Z&se=2118-05-29T22%3A46%3A43Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-82b703bb-bab1-4d8d-9a71-01f18b41f15b/V4_con1_1.mp4?sv=2015-07-08&sr=c&si=55dc24bf-21ef-42ef-ab18-22d3fd02cdaf&sig=orZb4MSkYl6k%2FoFgco1CpDNmXvw4d5cOgn1FHAzGUa4%3D&st=2018-05-29T22%3A46%3A43Z&se=2118-05-29T22%3A46%3A43Z"
     },
     "V4_con2_1":{
       "end" : "V4_con5_1",
-      "cc" : "./cc/V4_con2.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con2_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-b44213e6-2a21-4fe2-a3b8-2641fa943b89/V4_con2.vtt?sv=2015-07-08&sr=c&si=435fef4f-9500-494d-85a4-8fa6b22cfe33&sig=IwB6LyeUspUgh1el7978AExDzTFNSuVOmcFoo7Mbjts%3D&st=2018-05-29T22%3A47%3A35Z&se=2118-05-29T22%3A47%3A35Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-b44213e6-2a21-4fe2-a3b8-2641fa943b89/V4_con2_1.mp4?sv=2015-07-08&sr=c&si=435fef4f-9500-494d-85a4-8fa6b22cfe33&sig=IwB6LyeUspUgh1el7978AExDzTFNSuVOmcFoo7Mbjts%3D&st=2018-05-29T22%3A47%3A35Z&se=2118-05-29T22%3A47%3A35Z"
     },
     "V4_con3_1":{
       "end" : "V4_con5_1",
-      "cc" : "./cc/V4_con3.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con3_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-ed5870a3-e579-4b66-97c8-c1a724360cbb/V4_con3.vtt?sv=2015-07-08&sr=c&si=9efa6ce9-aac3-4a70-ace0-eb941a2c2c76&sig=AHC7ABthqgb0%2B65uAKSRlVFjFNYICzCB5TEfB4QF9GU%3D&st=2018-05-29T22%3A48%3A07Z&se=2118-05-29T22%3A48%3A07Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-ed5870a3-e579-4b66-97c8-c1a724360cbb/V4_con3_1.mp4?sv=2015-07-08&sr=c&si=9efa6ce9-aac3-4a70-ace0-eb941a2c2c76&sig=AHC7ABthqgb0%2B65uAKSRlVFjFNYICzCB5TEfB4QF9GU%3D&st=2018-05-29T22%3A48%3A07Z&se=2118-05-29T22%3A48%3A07Z"
     },
     "V4_con4_1":{
       "end" : null,
       "complete": true,
-      "cc" : "./cc/V4_con4.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con4_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-be9b9173-5141-4233-b25e-2e325b23af5d/V4_con4.vtt?sv=2015-07-08&sr=c&si=11c1a323-4601-428a-a8b7-00f6da5c5609&sig=C6ZOARri9p0y4M0fTWDTJPnTdv5QbIYdeLyB%2BWwSASA%3D&st=2018-05-29T22%3A48%3A40Z&se=2118-05-29T22%3A48%3A40Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-be9b9173-5141-4233-b25e-2e325b23af5d/V4_con4_1.mp4?sv=2015-07-08&sr=c&si=11c1a323-4601-428a-a8b7-00f6da5c5609&sig=C6ZOARri9p0y4M0fTWDTJPnTdv5QbIYdeLyB%2BWwSASA%3D&st=2018-05-29T22%3A48%3A40Z&se=2118-05-29T22%3A48%3A40Z",
       "overlays": [
         {
           "in": 149,
@@ -542,8 +542,8 @@
     "V4_con5_1":{
       "end": null,
       "complete": true,
-      "cc" : "./cc/V4_con5.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V4_con5_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-07b0aba8-2087-4091-a11f-90edcf1b2bd7/V4_con5.vtt?sv=2015-07-08&sr=c&si=c719fa44-2325-4ec8-872b-997df0149f9b&sig=%2Bkk6gVnwZmHNmGS1J4SHq2pSVRssL%2B%2FlOEpm%2FXKXB4E%3D&st=2018-05-29T22%3A49%3A20Z&se=2118-05-29T22%3A49%3A20Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-07b0aba8-2087-4091-a11f-90edcf1b2bd7/V4_con5_1.mp4?sv=2015-07-08&sr=c&si=c719fa44-2325-4ec8-872b-997df0149f9b&sig=%2Bkk6gVnwZmHNmGS1J4SHq2pSVRssL%2B%2FlOEpm%2FXKXB4E%3D&st=2018-05-29T22%3A49%3A20Z&se=2118-05-29T22%3A49%3A20Z",
       "overlays": [
         {
           "in": 69,
@@ -562,8 +562,8 @@
 
     "V5_intro_1" : {
       "end" : null,
-      "cc" : "./cc/V5_intro.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_intro_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-509e5167-3d19-4b35-a6bb-b2fe7491c2cd/V5_intro.vtt?sv=2015-07-08&sr=c&si=67119a97-8c13-4ccb-a185-c90eb4e99407&sig=bLXiZiSF4w6s8E333WWB1m8evzP4gghQYrLkHwbiaQ4%3D&st=2018-05-29T22%3A59%3A02Z&se=2118-05-29T22%3A59%3A02Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-509e5167-3d19-4b35-a6bb-b2fe7491c2cd/V5_intro_1.mp4?sv=2015-07-08&sr=c&si=67119a97-8c13-4ccb-a185-c90eb4e99407&sig=bLXiZiSF4w6s8E333WWB1m8evzP4gghQYrLkHwbiaQ4%3D&st=2018-05-29T22%3A59%3A02Z&se=2118-05-29T22%3A59%3A02Z",
       "overlays" : [
         {
           "in" : 78,
@@ -598,23 +598,23 @@
     },
     "V5_A_1" : {
       "end" : "TC1_WV5_1",
-      "cc" : "./cc/V5_A.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_A_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-cbaa18a9-5c8c-4dfe-b30a-826ad5f84c76/V5_A.vtt?sv=2015-07-08&sr=c&si=c20488f9-3d26-4ba6-b35b-87994a940cde&sig=otywj6DFqaJDSSV6Y2vLe2QjhcLeiGzBbKr3CsxEoV8%3D&st=2018-05-29T22%3A59%3A39Z&se=2118-05-29T22%3A59%3A39Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-cbaa18a9-5c8c-4dfe-b30a-826ad5f84c76/V5_A_1.mp4?sv=2015-07-08&sr=c&si=c20488f9-3d26-4ba6-b35b-87994a940cde&sig=otywj6DFqaJDSSV6Y2vLe2QjhcLeiGzBbKr3CsxEoV8%3D&st=2018-05-29T22%3A59%3A39Z&se=2118-05-29T22%3A59%3A39Z"
     },
     "V5_B_1" : {
       "end" : "TC1_WV5_1",
-      "cc" : "./cc/V5_B.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_B_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-a77a5c84-5a54-48a5-9dce-e1d7eee455ba/V5_B.vtt?sv=2015-07-08&sr=c&si=0bf4a248-8d9a-4c03-a334-784ed13e6198&sig=TedyMwoMT8M5lVKc73ilUfT72P6OfGF2H6%2F2j7DuLrU%3D&st=2018-05-29T23%3A00%3A09Z&se=2118-05-29T23%3A00%3A09Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-a77a5c84-5a54-48a5-9dce-e1d7eee455ba/V5_B_1.mp4?sv=2015-07-08&sr=c&si=0bf4a248-8d9a-4c03-a334-784ed13e6198&sig=TedyMwoMT8M5lVKc73ilUfT72P6OfGF2H6%2F2j7DuLrU%3D&st=2018-05-29T23%3A00%3A09Z&se=2118-05-29T23%3A00%3A09Z"
     },
     "V5_C_1" : {
       "end" : "V5_con4_1",
-      "cc" : "./cc/V5_C.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_C_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-82d6b22e-dd5b-4474-94db-43bbf41f3bb3/V5_C.vtt?sv=2015-07-08&sr=c&si=6fdf8b7a-adca-4317-810b-aca849b9aa1f&sig=2iZ3ekzzUzmqtvwdXACgMpTbfs5nqjaDFACaGHgzPKk%3D&st=2018-05-29T23%3A00%3A43Z&se=2118-05-29T23%3A00%3A43Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-82d6b22e-dd5b-4474-94db-43bbf41f3bb3/V5_C_1.mp4?sv=2015-07-08&sr=c&si=6fdf8b7a-adca-4317-810b-aca849b9aa1f&sig=2iZ3ekzzUzmqtvwdXACgMpTbfs5nqjaDFACaGHgzPKk%3D&st=2018-05-29T23%3A00%3A43Z&se=2118-05-29T23%3A00%3A43Z"
     },
     "TC1_WV5_1":{
       "end" : null,
       "cc" : null,
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/TC1_WV5_1.mp4",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-13650413-ebcf-451a-9a12-d8ac5dbda3eb/TC1_WV5_1.mp4?sv=2015-07-08&sr=c&si=4d69139c-08cd-4814-8f59-b79d244a9b2b&sig=MaSdpocjR84ocdK8Z25ljq3TABfK8VlwAflrArAQO5k%3D&st=2018-05-29T23%3A01%3A18Z&se=2118-05-29T23%3A01%3A18Z",
       "overlays" : [
         {
           "in" : 6,
@@ -649,24 +649,24 @@
     },
     "V5_con1_1":{
       "end" : "V5_con5_1",
-      "cc" : "./cc/V5_con1.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con1_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-db8c1086-de3c-49dc-8785-58e2a6557948/V5_con1.vtt?sv=2015-07-08&sr=c&si=9ca20ca5-6d68-4ff7-bb10-46a9b8ccc8a4&sig=kq8jcfvDapks%2FYK5ZbjK9ZOmO4FOUzZcSBNkajytgQI%3D&st=2018-05-29T23%3A01%3A50Z&se=2118-05-29T23%3A01%3A50Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-db8c1086-de3c-49dc-8785-58e2a6557948/V5_con1_1.mp4?sv=2015-07-08&sr=c&si=9ca20ca5-6d68-4ff7-bb10-46a9b8ccc8a4&sig=kq8jcfvDapks%2FYK5ZbjK9ZOmO4FOUzZcSBNkajytgQI%3D&st=2018-05-29T23%3A01%3A50Z&se=2118-05-29T23%3A01%3A50Z"
     },
     "V5_con2_1":{
       "end" : "V5_con5_1",
-      "cc" : "./cc/V5_con2.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con2_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-4480f859-46d6-44f5-8435-dc4c7ca76c26/V5_con2.vtt?sv=2015-07-08&sr=c&si=8f620fe9-c0c3-4527-85f2-e10a56fa4b13&sig=GMoVRwjU4PtnIknIdt73I%2BGJFZz54TgELjYqVFZ3cYg%3D&st=2018-05-29T23%3A02%3A24Z&se=2118-05-29T23%3A02%3A24Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-4480f859-46d6-44f5-8435-dc4c7ca76c26/V5_con2_1.mp4?sv=2015-07-08&sr=c&si=8f620fe9-c0c3-4527-85f2-e10a56fa4b13&sig=GMoVRwjU4PtnIknIdt73I%2BGJFZz54TgELjYqVFZ3cYg%3D&st=2018-05-29T23%3A02%3A24Z&se=2118-05-29T23%3A02%3A24Z"
     },
     "V5_con3_1":{
       "end" : "V5_con5_1",
-      "cc" : "./cc/V5_con3.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con3_1.mp4"
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-0c53af31-e81c-459f-bd83-cdcc10f11763/V5_con3.vtt?sv=2015-07-08&sr=c&si=ee75aee3-b36f-4cdd-9e3a-971af2b80c46&sig=6ovmlxhRGNWscL1bwOPBQogzZFj%2F%2BlTndrK90JUCRv0%3D&st=2018-05-29T23%3A02%3A52Z&se=2118-05-29T23%3A02%3A52Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-0c53af31-e81c-459f-bd83-cdcc10f11763/V5_con3_1.mp4?sv=2015-07-08&sr=c&si=ee75aee3-b36f-4cdd-9e3a-971af2b80c46&sig=6ovmlxhRGNWscL1bwOPBQogzZFj%2F%2BlTndrK90JUCRv0%3D&st=2018-05-29T23%3A02%3A52Z&se=2118-05-29T23%3A02%3A52Z"
     },
     "V5_con4_1":{
       "end" : null,
       "complete": true,
-      "cc" : "./cc/V5_con4.vtt",
-        "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con4_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-d4eb895d-6401-47f9-9165-4e29691be7e0/V5_con4.vtt?sv=2015-07-08&sr=c&si=8052d689-1523-40d3-b606-248472268bfd&sig=wtOEbK2turjhQlaSnCiMe4QUZ34S%2FErttqt12tF0mF4%3D&st=2018-05-29T23%3A03%3A30Z&se=2118-05-29T23%3A03%3A30Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-d4eb895d-6401-47f9-9165-4e29691be7e0/V5_con4_1.mp4?sv=2015-07-08&sr=c&si=8052d689-1523-40d3-b606-248472268bfd&sig=wtOEbK2turjhQlaSnCiMe4QUZ34S%2FErttqt12tF0mF4%3D&st=2018-05-29T23%3A03%3A30Z&se=2118-05-29T23%3A03%3A30Z",
       "overlays": [
         {
           "in": 114,
@@ -682,8 +682,8 @@
     "V5_con5_1":{
       "end": null,
       "complete": true,
-      "cc" : "./cc/V5_con5.vtt",
-      "url" : "https://vmgstudios.blob.core.windows.net/videos/V5_con5_1.mp4",
+      "cc" : "https://vmgstudios.blob.core.windows.net/asset-90888b09-211d-47ac-8ff2-26ffdca74564/V5_con5.vtt?sv=2015-07-08&sr=c&si=b6e5b479-0029-47ca-ab56-cc26b2d68990&sig=4x%2B0BiZd8LiXsqZcBHscIuzz0WTNJQV0NJTZD4cgYQs%3D&st=2018-05-29T23%3A04%3A50Z&se=2118-05-29T23%3A04%3A50Z",
+      "url" : "https://vmgstudios.blob.core.windows.net/asset-90888b09-211d-47ac-8ff2-26ffdca74564/V5_con5_1.mp4?sv=2015-07-08&sr=c&si=b6e5b479-0029-47ca-ab56-cc26b2d68990&sig=4x%2B0BiZd8LiXsqZcBHscIuzz0WTNJQV0NJTZD4cgYQs%3D&st=2018-05-29T23%3A04%3A50Z&se=2118-05-29T23%3A04%3A50Z",
       "overlays": [
         {
           "in": 78,

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router'
 import { connect } from 'react-redux'
-
 import {initProject} from 'actions'
 
 import VideoPlayer from 'components/VideoPlayer'
@@ -44,7 +43,8 @@ class App extends Component {
       <div className="App" style={{position:'relative'}}>
         <Overlays />
         <VideoPlayer />
-        {/*
+{/*
+        <span>3QOM99IW6P</span>
         <hr />
         <h4>VIDEO STATE</h4>
         {JSON.stringify(this.props.videoState)}
