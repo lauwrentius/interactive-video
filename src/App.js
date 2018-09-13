@@ -3,7 +3,9 @@ import { withRouter } from 'react-router'
 import { connect } from 'react-redux'
 import {initProject} from 'actions'
 
-import VideoPlayer from 'components/VideoPlayer'
+// import VideoPlayer from 'components/VideoPlayer'
+import AzurePlayer from 'components/AzurePlayer'
+
 import Overlays from 'components/Overlays'
 
 import './App.css';
@@ -42,9 +44,12 @@ class App extends Component {
     return (
       <div className="App" style={{position:'relative'}}>
         <Overlays />
-        <VideoPlayer />
+        <AzurePlayer />
 {/*
+
+        <VideoPlayer />
         <span>3QOM99IW6P</span>
+
         <hr />
         <h4>VIDEO STATE</h4>
         {JSON.stringify(this.props.videoState)}
@@ -56,7 +61,7 @@ class App extends Component {
         {JSON.stringify(this.props.playbackState)}
         <h4>SELECTION STATE</h4>
         {JSON.stringify(this.props.selectionState)}
-        */}
+*/}
       </div>
     )
   }

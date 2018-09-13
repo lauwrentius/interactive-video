@@ -4,10 +4,10 @@
   width: 720px;
   position: relative;
 }
+
 .hidden{
   display: none !important;
 }
-
 .textComponent{
   position: absolute;
   z-index: 2;
@@ -45,9 +45,31 @@
 .dropEl.disabled{
   background-color: rgba(60,60,60,.8);
 }
+
+
 .video-js .vjs-big-play-button{
   display: none;
 }
-.vjs-texttrack-settings {
+/*.vjs-texttrack-settings {
   display: none;
+} */
+
+.amp-default-skin .vjs-control-bar{
+  background-color: rgba(60,69,79,.8);
+}
+.amp-default-skin .vjs-control-bar .amp-controlbaricons-left, .amp-default-skin .vjs-control-bar .amp-controlbaricons-right{
+  /* padding-left: 50px; */
+}
+
+.hideTimerControl .amp-default-skin .vjs-progress-control,
+.hideTimerControl .amp-default-skin .vjs-time-control,
+.amp-default-skin .vjs-big-play-button,
+.amp-default-skin .amp-content-title .logo-title-row,
+.amp-default-skin .vjs-control.vjs-fullscreen-control,
+.amp-default-skin .vjs-control.amp-quality-control{
+  display: none;
+}
+
+.amp-default-skin.azuremediaplayer:not(.vjs-fullscreen) .outline-enabled.vjs-player:focus {
+  outline: none !important;
 }

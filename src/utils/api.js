@@ -1,5 +1,5 @@
 // import firebase from 'utils/firebase.js'
-import * as json_data from './data.json'
+import * as json_data from './data-azureStream.json'
 
 export function loadAssets(ref){
   // return firebase.storage().ref(ref).getDownloadURL()
@@ -15,7 +15,8 @@ export function loadProjectsData(id){
 }
 
 export function loadVideoData(id){
-  // console.log(json_data['videos'][id])
+  // console.log('>>',json_data)
+
   return json_data['videos'][id]
 
   // const db = firebase.database().ref()

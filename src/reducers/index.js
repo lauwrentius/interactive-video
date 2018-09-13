@@ -6,6 +6,9 @@ import { INIT_PROJECT, UPDATE_VIDEO, SET_PLAYBACK,INIT_SELECTION } from 'actions
 //   //     sources: [{
 //   //       src: videoData.url,
 //   //       type: 'video/mp4'
+// function projectState( state = {}, action) {
+//
+// }
 
 function videoState (state = {}, action) {
   const {obj} = action
@@ -15,21 +18,15 @@ function videoState (state = {}, action) {
       return {
           poster: obj.poster,
           autoplay:false,
-          cc: obj.cc,
-          sources:[{
-            src: obj.url,
-            type: 'video/mp4'
-          }]
+          captions: obj.captions,
+          sources: obj.url
         }
     case UPDATE_VIDEO:
       return {
-        poster: '',
+        poster: '//vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-blank.png',
         autoplay: true,
-        cc: obj.cc,
-        sources:[{
-          src: obj.url,
-          type: 'video/mp4'
-        }]
+        captions: obj.captions,
+        sources: obj.url
       }
     default:
       return state
@@ -77,6 +74,7 @@ function selectionState (state = {prevSelection:null}, action) {
 }
 
 export default combineReducers({
+  // projectState,
   videoState,
   interactionState,
   playbackState,

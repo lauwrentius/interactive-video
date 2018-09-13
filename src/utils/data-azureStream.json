@@ -1,0 +1,777 @@
+{
+  "videos":{
+    "V1_intro_1" : {
+      "end" : null,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-3b4f802f-dc95-4d5c-801c-9c1fb00d93d5/V1_intro.vtt?sv=2015-07-08&sr=c&si=78745ae7-0836-492f-89a9-b8bfab42ca8b&sig=nDr%2BnpZ6AAAmgNq%2FVuQH828HpuK0xlGLaXCuOTmvrXQ%3D&st=2018-07-02T18%3A47%3A09Z&se=2118-07-02T18%3A47%3A09Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/c725a62a-cc02-44b9-a751-378847fa033b/tm-interactive-V1_intro.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-3b4f802f-dc95-4d5c-801c-9c1fb00d93d5/tm-interactive-V1_intro_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=78745ae7-0836-492f-89a9-b8bfab42ca8b&sig=nDr%2BnpZ6AAAmgNq%2FVuQH828HpuK0xlGLaXCuOTmvrXQ%3D&st=2018-07-02T18%3A47%3A09Z&se=2118-07-02T18%3A47%3A09Z"],
+      "overlays" : [
+        {
+          "in" : 64,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 64,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V1_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V1_C_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V1_B_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V1_A_1" : {
+      "end" : "TC1_WV1_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-3f0cbc3c-f7c8-4900-947f-070d85dbbff2/V1_A.vtt?sv=2015-07-08&sr=c&si=fefc82e9-0705-46af-a35f-33b36fb8a796&sig=KLRnWLOB%2BLFN7ZV9gd7XCVQinyJx3cCDFkLl%2FWlVshw%3D&st=2018-07-02T18%3A48%3A03Z&se=2118-07-02T18%3A48%3A03Z",
+      "url": [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/41242da3-607f-4fec-ab2b-4ce5ba20f5b3/tm-interactive-V1_A.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-3f0cbc3c-f7c8-4900-947f-070d85dbbff2/tm-interactive-V1_A_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=fefc82e9-0705-46af-a35f-33b36fb8a796&sig=KLRnWLOB%2BLFN7ZV9gd7XCVQinyJx3cCDFkLl%2FWlVshw%3D&st=2018-07-02T18%3A48%3A03Z&se=2118-07-02T18%3A48%3A03Z"]
+    },
+    "V1_B_1" : {
+      "end" : "TC1_WV1_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-e0a873b2-badb-481e-b07c-560cf9371ff8/V1_B.vtt?sv=2015-07-08&sr=c&si=4be73787-f94e-4b39-a9b3-a0df93f355eb&sig=w7RmtVjQZgEA0hquk%2FFaxm%2BEDL4ch55VegFFAhElw6U%3D&st=2018-07-02T18%3A49%3A04Z&se=2118-07-02T18%3A49%3A04Z",
+      "url": [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/5ef124dc-d5e7-4ec8-8a10-6ffca8e98753/tm-interactive-V1_B.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-e0a873b2-badb-481e-b07c-560cf9371ff8/tm-interactive-V1_B_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=4be73787-f94e-4b39-a9b3-a0df93f355eb&sig=w7RmtVjQZgEA0hquk%2FFaxm%2BEDL4ch55VegFFAhElw6U%3D&st=2018-07-02T18%3A49%3A04Z&se=2118-07-02T18%3A49%3A04Z"]
+    },
+    "V1_C_1" : {
+      "end" : "V1_con4_1",
+      "captions" :
+      "https://vmgstudios.blob.core.windows.net/asset-cc7b63c9-f809-4bc4-90a9-d09335afe36c/V1_C.vtt?sv=2015-07-08&sr=c&si=e239f4e6-023c-4f17-a9d8-d70de573bfb2&sig=%2B%2FoTD3YBkTrPwTLxLBuFks1VfHB%2B0WZtKOKuTCtatW0%3D&st=2018-07-02T18%3A49%3A59Z&se=2118-07-02T18%3A49%3A59Z",
+      "url": [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/f824d40f-a6b7-4ce1-806e-60ea56cf7fae/tm-interactive-V1_C.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-cc7b63c9-f809-4bc4-90a9-d09335afe36c/tm-interactive-V1_C_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=e239f4e6-023c-4f17-a9d8-d70de573bfb2&sig=%2B%2FoTD3YBkTrPwTLxLBuFks1VfHB%2B0WZtKOKuTCtatW0%3D&st=2018-07-02T18%3A49%3A59Z&se=2118-07-02T18%3A49%3A59Z"]
+    },
+    "TC1_WV1_1":{
+      "end" : null,
+      "captions" : null,
+      "url": [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/a2b604b1-aca6-4b7f-ab3d-f5f692ae776e/tm-interactive-TC1_WV1_1.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-8d90fa76-42bc-407b-9224-07f4d7414b98/tm-interactive-TC1_WV1_1_960x540_AACAudio_1140.mp4?sv=2015-07-08&sr=c&si=8948b676-e127-4084-b04f-67ec13c0bbad&sig=TPW%2Bh%2Fv333d%2B%2BOeAaGUQyxPw3P2vnQ4Ugc2ogquVvpI%3D&st=2018-06-29T05%3A17%3A49Z&se=2118-06-29T05%3A17%3A49Z"],
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V1_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V1_con2_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V1_con1_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V1_con1_1":{
+      "end" : "V1_con5_1",
+      "captions" :  "https://vmgstudios.blob.core.windows.net/asset-e6ad8216-067a-488f-b864-a35b2c8d5780/V1_con1.vtt?sv=2015-07-08&sr=c&si=dc72a9ee-ad20-4248-a595-36339e8fe1bd&sig=rDqnCKHThw7QC2TuCqp%2Bl%2FwaMNU0fSgbN9GOY3qwAzo%3D&st=2018-07-02T18%3A52%3A58Z&se=2118-07-02T18%3A52%3A58Z",
+      "url": [
+         "https://tmobileinteractive-uswe.streaming.media.azure.net/47e78a30-a4b7-47ae-9950-f14e91c713d6/tm-interactive-V1_con1.ism/manifest(format=mpd-time-csf)",
+         "https://vmgstudios.blob.core.windows.net/asset-e6ad8216-067a-488f-b864-a35b2c8d5780/tm-interactive-V1_con1_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=dc72a9ee-ad20-4248-a595-36339e8fe1bd&sig=rDqnCKHThw7QC2TuCqp%2Bl%2FwaMNU0fSgbN9GOY3qwAzo%3D&st=2018-07-02T18%3A52%3A58Z&se=2118-07-02T18%3A52%3A58Z"]
+    },
+    "V1_con2_1":{
+      "end" : "V1_con5_1",
+      "captions" :
+      "https://vmgstudios.blob.core.windows.net/asset-253a8026-f076-4c27-b0a0-4ab6030f287e/V1_con2.vtt?sv=2015-07-08&sr=c&si=181fb980-a86c-46a8-8b78-6c8ea527e014&sig=Tbp83BFN1WIRyrfJDOqUC0sRIjns5EeX%2FgzlUqEZVBg%3D&st=2018-07-02T18%3A53%3A45Z&se=2118-07-02T18%3A53%3A45Z",
+      "url": [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/c2a9900a-5039-4fae-99a6-b33dd67dfaa5/tm-interactive-V1_con2.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-253a8026-f076-4c27-b0a0-4ab6030f287e/tm-interactive-V1_con2_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=181fb980-a86c-46a8-8b78-6c8ea527e014&sig=Tbp83BFN1WIRyrfJDOqUC0sRIjns5EeX%2FgzlUqEZVBg%3D&st=2018-07-02T18%3A53%3A45Z&se=2118-07-02T18%3A53%3A45Z"]
+    },
+    "V1_con3_1":{
+      "end" : "V1_con5_1",
+      "captions" :
+      "https://vmgstudios.blob.core.windows.net/asset-e5c8f4bc-a9b6-4b2d-8098-33482af207f0/V1_con3.vtt?sv=2015-07-08&sr=c&si=6203cdb7-d1d3-41f9-80bb-c3271bb41b45&sig=sV5BFdjVXkaTjcshRxGi6NIioC6cP%2B56dERpCl9sn9Y%3D&st=2018-07-02T18%3A55%3A20Z&se=2118-07-02T18%3A55%3A20Z",
+      "url": [
+         "https://tmobileinteractive-uswe.streaming.media.azure.net/35a31556-c39e-4f95-9430-3dd0e6b378e5/tm-interactive-V1_con3.ism/manifest(format=mpd-time-csf)",
+         "https://vmgstudios.blob.core.windows.net/asset-e5c8f4bc-a9b6-4b2d-8098-33482af207f0/tm-interactive-V1_con3_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=6203cdb7-d1d3-41f9-80bb-c3271bb41b45&sig=sV5BFdjVXkaTjcshRxGi6NIioC6cP%2B56dERpCl9sn9Y%3D&st=2018-07-02T18%3A55%3A20Z&se=2118-07-02T18%3A55%3A20Z"]
+    },
+    "V1_con4_1":{
+      "end" : null,
+      "complete": true,
+      "captions" :
+      "https://vmgstudios.blob.core.windows.net/asset-efd2d16a-994b-4a8b-8b77-778243e8fe7f/V1_con4.vtt?sv=2015-07-08&sr=c&si=c53c513f-e65f-4bea-bb2f-c63e2c17856d&sig=FtDYZsN44DQgfnK%2BOIdDdCHaW66%2Ff9Mvewr9FqsoG50%3D&st=2018-07-02T18%3A56%3A41Z&se=2118-07-02T18%3A56%3A41Z",
+      "url": [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/45883df4-c64e-4347-9cc0-e7938e5cc068/tm-interactive-V1_con4.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-efd2d16a-994b-4a8b-8b77-778243e8fe7f/tm-interactive-V1_con4_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=c53c513f-e65f-4bea-bb2f-c63e2c17856d&sig=FtDYZsN44DQgfnK%2BOIdDdCHaW66%2Ff9Mvewr9FqsoG50%3D&st=2018-07-02T18%3A56%3A41Z&se=2118-07-02T18%3A56%3A41Z"],
+      "overlays": [
+        {
+          "in": 110,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V1_con5_1":{
+      "end": null,
+      "complete": true,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-f78d4187-1d42-42a5-a440-69acdeea07b8/V1_con5.vtt?sv=2015-07-08&sr=c&si=ec19a6b5-a267-4bcc-ad54-33e9fcc31172&sig=blbdrH8b3R77q0BlEpUZmSlArDlxjG%2FhdWalbDVBBec%3D&st=2018-07-02T18%3A57%3A51Z&se=2118-07-02T18%3A57%3A51Z",
+      "url": [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/d68f65e2-97ec-4a71-ad5e-7fc82bf99474/tm-interactive-V1_con5.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-f78d4187-1d42-42a5-a440-69acdeea07b8/tm-interactive-V1_con5_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=ec19a6b5-a267-4bcc-ad54-33e9fcc31172&sig=blbdrH8b3R77q0BlEpUZmSlArDlxjG%2FhdWalbDVBBec%3D&st=2018-07-02T18%3A57%3A51Z&se=2118-07-02T18%3A57%3A51Z"],
+      "overlays": [
+        {
+          "in": 61,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V2_intro_1" : {
+      "end" : null,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-040c3096-b0bf-4124-9d09-a4018458980a/V2_intro.vtt?sv=2015-07-08&sr=c&si=5f43e27d-6f13-4724-a475-6b647084aef2&sig=c%2BsHHF2m3SFpbmfiZTe3MV0eyTuOkWZNlHNr95ZRqw0%3D&st=2018-07-02T18%3A28%3A17Z&se=2118-07-02T18%3A28%3A17Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/59a5eb3b-0186-484e-8bec-ca3083a3e283/tm-interactive-V2_intro.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-040c3096-b0bf-4124-9d09-a4018458980a/tm-interactive-V2_intro_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=5f43e27d-6f13-4724-a475-6b647084aef2&sig=c%2BsHHF2m3SFpbmfiZTe3MV0eyTuOkWZNlHNr95ZRqw0%3D&st=2018-07-02T18%3A28%3A17Z&se=2118-07-02T18%3A28%3A17Z"],
+      "overlays" : [
+        {
+          "in" : 68,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 68,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V2_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":263,"y":271,"w":189,"h":94,
+              "url": "V2_B_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":491,"y":271,"w":189,"h":94,
+              "url": "V2_C_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V2_A_1" : {
+      "end" : "TC1_WV2_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-be431b83-2604-47cf-b442-c0014422969e/V2_A.vtt?sv=2015-07-08&sr=c&si=1f5cc412-99ec-452a-acb0-95cecc2f8c4b&sig=i8y%2FqT7K%2FDtlZtvSev%2BJr7izDgnSGL6U%2B9Q06Is2%2FOk%3D&st=2018-07-02T18%3A29%3A26Z&se=2118-07-02T18%3A29%3A26Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/5c09d6dc-ccf8-4f84-8183-a6639c9a6604/tm-interactive-V2_A.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-be431b83-2604-47cf-b442-c0014422969e/tm-interactive-V2_A_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=1f5cc412-99ec-452a-acb0-95cecc2f8c4b&sig=i8y%2FqT7K%2FDtlZtvSev%2BJr7izDgnSGL6U%2B9Q06Is2%2FOk%3D&st=2018-07-02T18%3A29%3A26Z&se=2118-07-02T18%3A29%3A26Z"]
+    },
+    "V2_B_1" : {
+      "end" : "TC1_WV2_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-f74aebca-4894-4af3-89d5-4197d23eea45/V2_B.vtt?sv=2015-07-08&sr=c&si=304d042b-ac58-4c0d-b4e7-0f0019c7877f&sig=wVVhJRlDmYh9z0ArX7ndbLCByuKroNt%2B9tVR0BhfNGo%3D&st=2018-07-02T18%3A30%3A26Z&se=2118-07-02T18%3A30%3A26Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/500d1ea8-3e30-43bd-a708-76acc6481831/tm-interactive-V2_B.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-f74aebca-4894-4af3-89d5-4197d23eea45/tm-interactive-V2_B_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=304d042b-ac58-4c0d-b4e7-0f0019c7877f&sig=wVVhJRlDmYh9z0ArX7ndbLCByuKroNt%2B9tVR0BhfNGo%3D&st=2018-07-02T18%3A30%3A26Z&se=2118-07-02T18%3A30%3A26Z"]
+    },
+    "V2_C_1" : {
+      "end" : "V2_con4_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-a344425d-19b1-4d55-87f3-5431fc305d23/V2_C.vtt?sv=2015-07-08&sr=c&si=a9884161-d4ed-4058-88cf-e5966841ff39&sig=xXZXcjtjZgwj2%2Bi6xGRIPBM79vKJmOcGE7OIsbY8AQY%3D&st=2018-07-02T18%3A32%3A08Z&se=2118-07-02T18%3A32%3A08Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/17b7267d-5a8a-4824-9cfd-e6bcf50144f8/tm-interactive-V2_C.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-a344425d-19b1-4d55-87f3-5431fc305d23/tm-interactive-V2_C_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=a9884161-d4ed-4058-88cf-e5966841ff39&sig=xXZXcjtjZgwj2%2Bi6xGRIPBM79vKJmOcGE7OIsbY8AQY%3D&st=2018-07-02T18%3A32%3A08Z&se=2118-07-02T18%3A32%3A08Z"]
+    },
+    "TC1_WV2_1":{
+      "end" : null,
+      "captions" : null,
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/0d1afaa2-452b-4d09-8cb4-73c249d975e3/tm-interactive-TC1_WV2_1.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-f48c73b9-b452-479d-b851-544a3b8f1d13/tm-interactive-TC1_WV2_1_960x540_AACAudio_1010.mp4?sv=2015-07-08&sr=c&si=ac4d5aa9-db0d-493a-bc10-78e677168719&sig=eUrBnS%2BczADnCZYCBbVKvLzGOMh4c87Hn5Cw5aLyiRg%3D&st=2018-06-29T22%3A02%3A21Z&se=2118-06-29T22%3A02%3A21Z"],
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V2_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":263,"y":271,"w":189,"h":94,
+              "url": "V2_con1_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":491,"y":271,"w":189,"h":94,
+              "url": "V2_con2_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V2_con1_1":{
+      "end" : "V2_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-b0f720f2-751b-4975-a0c7-52ce267b07d8/V2_con1.vtt?sv=2015-07-08&sr=c&si=2959b618-5f78-4521-a12a-d53628f34b0c&sig=8j0p5P%2BctIF68ltE6Rgt8z17guctDycqm8tpnM2PNJ8%3D&st=2018-07-02T18%3A33%3A02Z&se=2118-07-02T18%3A33%3A02Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/9f906e85-db97-4b14-824f-d7a294727801/tm-interactive-V2_con1.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-b0f720f2-751b-4975-a0c7-52ce267b07d8/tm-interactive-V2_con1_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=2959b618-5f78-4521-a12a-d53628f34b0c&sig=8j0p5P%2BctIF68ltE6Rgt8z17guctDycqm8tpnM2PNJ8%3D&st=2018-07-02T18%3A33%3A02Z&se=2118-07-02T18%3A33%3A02Z"]
+    },
+    "V2_con2_1":{
+      "end" : "V2_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-f17608b8-688a-47c9-bafb-274ad3ca8296/V2_con2.vtt?sv=2015-07-08&sr=c&si=36d90794-eb87-42d2-b735-e492199c55ab&sig=Jz6GvdXWnY46MmAYTTn8nzriDLOWZPT4Mk2T3%2FWA0S0%3D&st=2018-07-02T18%3A33%3A57Z&se=2118-07-02T18%3A33%3A57Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/24ac445f-2d1a-4cff-9511-8fae8aef80f8/tm-interactive-V2_con2.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-f17608b8-688a-47c9-bafb-274ad3ca8296/tm-interactive-V2_con2_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=36d90794-eb87-42d2-b735-e492199c55ab&sig=Jz6GvdXWnY46MmAYTTn8nzriDLOWZPT4Mk2T3%2FWA0S0%3D&st=2018-07-02T18%3A33%3A57Z&se=2118-07-02T18%3A33%3A57Z"]
+    },
+    "V2_con3_1":{
+      "end" : "V2_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-e6e91531-fb45-4074-94e6-10580c0d98fa/V2_con3.vtt?sv=2015-07-08&sr=c&si=77f9be92-0888-4ce7-a00e-dc8fd84ee3c2&sig=XLL7auZ1afSwsIg2bd%2BIiAsLJidm89kc%2FIWKjhuRVGk%3D&st=2018-07-02T18%3A35%3A20Z&se=2118-07-02T18%3A35%3A20Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/8c85d214-6fbb-4657-9eb5-33fd560e4b37/tm-interactive-V2_con3.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-e6e91531-fb45-4074-94e6-10580c0d98fa/tm-interactive-V2_con3_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=77f9be92-0888-4ce7-a00e-dc8fd84ee3c2&sig=XLL7auZ1afSwsIg2bd%2BIiAsLJidm89kc%2FIWKjhuRVGk%3D&st=2018-07-02T18%3A35%3A20Z&se=2118-07-02T18%3A35%3A20Z"]
+    },
+    "V2_con4_1":{
+      "end" : null,
+      "complete": true,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-ebb0d879-9fec-408f-82ab-d9369ad4fba7/V2_con4.vtt?sv=2015-07-08&sr=c&si=6449409d-983d-4a96-a8e0-f1323af0c3ad&sig=s4eIMEPMxSxNeyfSvYRNKdq3lmCi91QXJQHKUq%2F8zzw%3D&st=2018-07-02T18%3A36%3A23Z&se=2118-07-02T18%3A36%3A23Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/c70cc587-0b9a-42f5-99ac-777074820d8a/tm-interactive-V2_con4.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-ebb0d879-9fec-408f-82ab-d9369ad4fba7/tm-interactive-V2_con4_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=6449409d-983d-4a96-a8e0-f1323af0c3ad&sig=s4eIMEPMxSxNeyfSvYRNKdq3lmCi91QXJQHKUq%2F8zzw%3D&st=2018-07-02T18%3A36%3A23Z&se=2118-07-02T18%3A36%3A23Z"],
+      "overlays": [
+        {
+          "in": 135,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V2_con5_1":{
+      "end": null,
+      "complete": true,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-09c46546-2032-4403-8b4a-cf8ccc167cdf/V2_con5.vtt?sv=2015-07-08&sr=c&si=8e0841f0-bef6-4ccc-a4f0-a8732bde3df2&sig=MHVpx9BMQQeV8PglkLHYq9SWKniMbQSNAnYhj8SM1fA%3D&st=2018-07-02T18%3A37%3A24Z&se=2118-07-02T18%3A37%3A24Z",
+      "url":[
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/135464bc-05a1-4bb0-9769-6b221c0eae9d/tm-interactive-V2_con5.ism/manifest(format=mpd-time-csf)",
+        "https://vmgstudios.blob.core.windows.net/asset-09c46546-2032-4403-8b4a-cf8ccc167cdf/tm-interactive-V2_con5_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=8e0841f0-bef6-4ccc-a4f0-a8732bde3df2&sig=MHVpx9BMQQeV8PglkLHYq9SWKniMbQSNAnYhj8SM1fA%3D&st=2018-07-02T18%3A37%3A24Z&se=2118-07-02T18%3A37%3A24Z"],
+      "overlays": [
+        {
+          "in": 87,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V3_intro_1" : {
+      "end" : null,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-b915b0b2-c890-47a8-878c-e83083ae2e68/V3_intro.vtt?sv=2015-07-08&sr=c&si=46e57a31-8c45-4c3a-8109-893c99ff688f&sig=O%2BW2iFNFS42aoSL2SCKsQKSoPVBOVuPcy2Pg0G1ndRY%3D&st=2018-07-02T17%3A59%3A23Z&se=2118-07-02T17%3A59%3A23Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/9265249b-7458-449c-a8f4-e7be90922082/tm-interactive-V3_intro.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-b915b0b2-c890-47a8-878c-e83083ae2e68/tm-interactive-V3_intro_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=46e57a31-8c45-4c3a-8109-893c99ff688f&sig=O%2BW2iFNFS42aoSL2SCKsQKSoPVBOVuPcy2Pg0G1ndRY%3D&st=2018-07-02T17%3A59%3A23Z&se=2118-07-02T17%3A59%3A23Z"],
+      "overlays" : [
+        {
+          "in" : 87,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 87,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":32, "y":271,"w":189,"h":94,
+              "url": "V3_B_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":261,"y":271,"w":189,"h":94,
+              "url": "V3_C_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":496,"y":271,"w":189,"h":94,
+              "url": "V3_A_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V3_A_1" : {
+      "end" : "TC1_WV3_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-f66311f2-3824-4c51-8556-d3f6fa5f7668/V3_A.vtt?sv=2015-07-08&sr=c&si=976eb689-3cd7-4e88-9a2f-39038dfde3fd&sig=ukJIZgl6S0UFCtFMCovV1fPYAEAbbOjoSDISDj%2Fukgw%3D&st=2018-07-02T18%3A07%3A49Z&se=2118-07-02T18%3A07%3A49Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/f5cd1953-03a8-4ee3-9a49-dbfc6879eee2/tm-interactive-V3_A.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-f66311f2-3824-4c51-8556-d3f6fa5f7668/tm-interactive-V3_A_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=976eb689-3cd7-4e88-9a2f-39038dfde3fd&sig=ukJIZgl6S0UFCtFMCovV1fPYAEAbbOjoSDISDj%2Fukgw%3D&st=2018-07-02T18%3A07%3A49Z&se=2118-07-02T18%3A07%3A49Z"]
+    },
+    "V3_B_1" : {
+      "end" : "TC1_WV3_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-67542036-9651-4efb-936a-5f56871281bd/V3_B.vtt?sv=2015-07-08&sr=c&si=35b9db07-6ee7-4502-80db-642e02684ed8&sig=CkUhxKnr5S%2Bz7lgFaWe0D6uvMSvQycCE6EUNSnNvpUw%3D&st=2018-07-02T18%3A08%3A48Z&se=2118-07-02T18%3A08%3A48Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/4e02b50f-e777-466c-896d-78d8dd5f21a1/tm-interactive-V3_B.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-67542036-9651-4efb-936a-5f56871281bd/tm-interactive-V3_B_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=35b9db07-6ee7-4502-80db-642e02684ed8&sig=CkUhxKnr5S%2Bz7lgFaWe0D6uvMSvQycCE6EUNSnNvpUw%3D&st=2018-07-02T18%3A08%3A48Z&se=2118-07-02T18%3A08%3A48Z"]
+    },
+    "V3_C_1" : {
+      "end" : "V1_con4_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-46f7c62d-e609-439e-bca9-f13d4c9181a3/V3_C.vtt?sv=2015-07-08&sr=c&si=c7b3ad1e-6403-43cb-96d0-5d41b4f24d90&sig=MK1SF96ceBpE%2FA%2FdzfrxVHr2E8I5bMPYz%2FDn0k6KtFE%3D&st=2018-07-02T18%3A10%3A15Z&se=2118-07-02T18%3A10%3A15Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/6e096538-2a7d-4b24-804c-61eebbb003a9/tm-interactive-V3_C.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-46f7c62d-e609-439e-bca9-f13d4c9181a3/tm-interactive-V3_C_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=c7b3ad1e-6403-43cb-96d0-5d41b4f24d90&sig=MK1SF96ceBpE%2FA%2FdzfrxVHr2E8I5bMPYz%2FDn0k6KtFE%3D&st=2018-07-02T18%3A10%3A15Z&se=2118-07-02T18%3A10%3A15Z"]
+    },
+    "TC1_WV3_1":{
+      "end" : null,
+      "captions" : null,
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/9c2fe3bd-7426-43c8-8762-3446201bbccf/tm-interactive-TC1_WV3_1.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-bbaed1db-db99-40aa-af88-f4d59c791a0b/tm-interactive-TC1_WV3_1_960x540_AACAudio_1360.mp4?sv=2015-07-08&sr=c&si=2b8d891d-f3a3-4b79-a448-03c002b26191&sig=WRaY8kAOqKEONQ8BuNuxJ%2FzZj5gX%2FRkCutmQQ5n2ZVE%3D&st=2018-07-02T18%3A05%3A53Z&se=2118-07-02T18%3A05%3A53Z"],
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":32, "y":271,"w":189,"h":94,
+              "url": "V3_con1_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":259,"y":271,"w":189,"h":94,
+              "url": "V3_con2_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":490,"y":271,"w":189,"h":94,
+              "url": "V3_con3_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V3_con1_1":{
+      "end" : "V3_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-d0eb9753-008b-4855-994e-7d01a9d22d18/V3_con1.vtt?sv=2015-07-08&sr=c&si=c1062705-1dba-466f-9e80-c15ee6eb2ff2&sig=zRYEar51luqCASRUhAU3Sf8q5jK2NmKCMVwGMepLnyI%3D&st=2018-07-02T18%3A05%3A00Z&se=2118-07-02T18%3A05%3A00Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/04b9437b-f096-412b-9689-bf1420ccacc4/tm-interactive-V3_con1.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-d0eb9753-008b-4855-994e-7d01a9d22d18/tm-interactive-V3_con1_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=c1062705-1dba-466f-9e80-c15ee6eb2ff2&sig=zRYEar51luqCASRUhAU3Sf8q5jK2NmKCMVwGMepLnyI%3D&st=2018-07-02T18%3A05%3A00Z&se=2118-07-02T18%3A05%3A00Z"]
+    },
+    "V3_con2_1":{
+      "end" : "V3_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-e9cfcd2b-cd00-41b2-8ca9-83336be812b9/V3_con2.vtt?sv=2015-07-08&sr=c&si=3dca381c-3ce4-4269-8fb5-64eb8c011248&sig=INU7NXxeM09udc%2FSQMOSFvXV2bTM7PTXmIe1OLkhUhM%3D&st=2018-07-02T18%3A04%3A04Z&se=2118-07-02T18%3A04%3A04Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/e69d3b03-8b84-4fa3-9e80-0de8c11deb26/tm-interactive-V3_con2.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-e9cfcd2b-cd00-41b2-8ca9-83336be812b9/tm-interactive-V3_con2_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=3dca381c-3ce4-4269-8fb5-64eb8c011248&sig=INU7NXxeM09udc%2FSQMOSFvXV2bTM7PTXmIe1OLkhUhM%3D&st=2018-07-02T18%3A04%3A04Z&se=2118-07-02T18%3A04%3A04Z"]
+    },
+    "V3_con3_1":{
+      "end" : "V3_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-d2cbed90-4b7b-4bfa-bd1c-8536c82ab938/V3_con3.vtt?sv=2015-07-08&sr=c&si=2f56ccc6-4dbd-49ed-8411-febc80a0c563&sig=HzYJzmgyoB611TAGCtXqX6g%2BGlK5BoA0CwOBgdS0NIY%3D&st=2018-07-02T18%3A03%3A06Z&se=2118-07-02T18%3A03%3A06Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/ea200825-6892-43f2-bd4c-55fc4d47df45/tm-interactive-V3_con3.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-d2cbed90-4b7b-4bfa-bd1c-8536c82ab938/tm-interactive-V3_con3_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=2f56ccc6-4dbd-49ed-8411-febc80a0c563&sig=HzYJzmgyoB611TAGCtXqX6g%2BGlK5BoA0CwOBgdS0NIY%3D&st=2018-07-02T18%3A03%3A06Z&se=2118-07-02T18%3A03%3A06Z"]
+    },
+    "V3_con4_1":{
+      "end" : null,
+      "complete": true,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-be3b5ba1-7959-48c2-98b0-b9576e0dfa1a/V3_con4.vtt?sv=2015-07-08&sr=c&si=cc57cb93-0e2d-4856-abfe-595ac4550408&sig=klHhbfNJGvDBpmUfq6JXXNsOmLH46cpZ6CGmdaTBaCM%3D&st=2018-07-02T18%3A02%3A01Z&se=2118-07-02T18%3A02%3A01Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/3653cd63-3cb5-40e5-b1d4-a514b79cc07d/tm-interactive-V3_con4.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-be3b5ba1-7959-48c2-98b0-b9576e0dfa1a/tm-interactive-V3_con4_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=cc57cb93-0e2d-4856-abfe-595ac4550408&sig=klHhbfNJGvDBpmUfq6JXXNsOmLH46cpZ6CGmdaTBaCM%3D&st=2018-07-02T18%3A02%3A01Z&se=2118-07-02T18%3A02%3A01Z"],
+      "overlays": [
+        {
+          "in": 110,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V3_con5_1":{
+      "end": null,
+      "complete": true,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-c7194537-c8e3-4bc8-890a-6f7b236461a4/V3_con5.vtt?sv=2015-07-08&sr=c&si=69eb88d1-690b-4b3e-8535-f63321eeba38&sig=g21DTPEUUfe68LqhW9v2Tf8cg5FBvDaHtrMnF8KmKow%3D&st=2018-07-02T18%3A00%3A34Z&se=2118-07-02T18%3A00%3A34Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/7d3605e2-7b4b-440f-8300-24af403fe066/tm-interactive-V3_con5.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-c7194537-c8e3-4bc8-890a-6f7b236461a4/tm-interactive-V3_con5_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=69eb88d1-690b-4b3e-8535-f63321eeba38&sig=g21DTPEUUfe68LqhW9v2Tf8cg5FBvDaHtrMnF8KmKow%3D&st=2018-07-02T18%3A00%3A34Z&se=2118-07-02T18%3A00%3A34Z"],
+      "overlays": [
+        {
+          "in": 78,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V4_intro_1":{
+      "end" : null,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-06ad01c7-1d4e-4768-bff9-aa658419f690/V4_intro.vtt?sv=2015-07-08&sr=c&si=e688be7b-3025-431d-8488-c2e784f8a5d1&sig=3kVGGNkcLXyGEO0y5WgmRh7VdUF3T3xh7Lg6xDwptsk%3D&st=2018-07-02T17%3A45%3A03Z&se=2118-07-02T17%3A45%3A03Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/637c50c0-2c70-421d-b7cd-2d2bc5d91d3e/tm-interactive-V4_intro.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-06ad01c7-1d4e-4768-bff9-aa658419f690/tm-interactive-V4_intro_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=e688be7b-3025-431d-8488-c2e784f8a5d1&sig=3kVGGNkcLXyGEO0y5WgmRh7VdUF3T3xh7Lg6xDwptsk%3D&st=2018-07-02T17%3A45%3A03Z&se=2118-07-02T17%3A45%3A03Z"],
+      "overlays" : [
+        {
+          "in" : 84,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 84,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V4_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V4_B_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":498,"y":271,"w":189,"h":94,
+              "url": "V4_C_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V4_A_1" : {
+      "end" : "TC1_WV4_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-5c0b6f27-8da1-4884-9f17-0453d46b1492/V4_A.vtt?sv=2015-07-08&sr=c&si=4b153b26-b684-4261-a1b2-f44e2ec285fd&sig=9ckbxwHiV9hxJi%2FNxCeOhYODq6IbgUUIwqk9%2F4GfgHE%3D&st=2018-07-02T17%3A47%3A02Z&se=2118-07-02T17%3A47%3A02Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/009fc043-7e9e-4dfe-8835-e16aba413a9b/tm-interactive-V4_A.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-5c0b6f27-8da1-4884-9f17-0453d46b1492/tm-interactive-V4_A_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=4b153b26-b684-4261-a1b2-f44e2ec285fd&sig=9ckbxwHiV9hxJi%2FNxCeOhYODq6IbgUUIwqk9%2F4GfgHE%3D&st=2018-07-02T17%3A47%3A02Z&se=2118-07-02T17%3A47%3A02Z"]
+    },
+    "V4_B_1" : {
+      "end" : "TC1_WV4_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-69292792-3f59-4e15-96ff-55c341d03a26/V4_B.vtt?sv=2015-07-08&sr=c&si=d1ae4847-f149-4226-bfb3-72237be7ea24&sig=xvA5pHaRthzDgH53Wf%2FzusCYRC4AWte2ZW0ZZby6zV8%3D&st=2018-07-02T17%3A47%3A58Z&se=2118-07-02T17%3A47%3A58Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/91920903-4a75-482b-b8bd-e161e7996223/tm-interactive-V4_B.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-69292792-3f59-4e15-96ff-55c341d03a26/tm-interactive-V4_B_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=d1ae4847-f149-4226-bfb3-72237be7ea24&sig=xvA5pHaRthzDgH53Wf%2FzusCYRC4AWte2ZW0ZZby6zV8%3D&st=2018-07-02T17%3A47%3A58Z&se=2118-07-02T17%3A47%3A58Z"]
+    },
+    "V4_C_1" : {
+      "end" : "V4_con4_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-e71008dd-290e-4c38-84d5-68e0f5c788a4/V4_C.vtt?sv=2015-07-08&sr=c&si=1d1af299-c166-4972-903b-f47c69986e1c&sig=gyUTrz%2F%2FBT1MDCz0erAkY%2FCeq6Ig9%2BbmApPT2Cchj0c%3D&st=2018-07-02T17%3A49%3A05Z&se=2118-07-02T17%3A49%3A05Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/71fdb3a5-0886-497e-b45c-4dc84b933810/tm-interactive-V4_C.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-e71008dd-290e-4c38-84d5-68e0f5c788a4/tm-interactive-V4_C_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=1d1af299-c166-4972-903b-f47c69986e1c&sig=gyUTrz%2F%2FBT1MDCz0erAkY%2FCeq6Ig9%2BbmApPT2Cchj0c%3D&st=2018-07-02T17%3A49%3A05Z&se=2118-07-02T17%3A49%3A05Z"]
+    },
+    "TC1_WV4_1":{
+      "end" : null,
+      "captions" : null,
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/24c09658-fd67-4e05-a397-ca43ca4e1ba1/tm-interactive-TC1_WV4_1.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-b634d677-762b-4a41-b5d2-f0c2e0e971bb/tm-interactive-TC1_WV4_1_960x540_AACAudio_1270.mp4?sv=2015-07-08&sr=c&si=a825dd8e-c221-40ba-9698-d692494f1a4e&sig=ZWS14unXl%2FiuCtbJS1c28dErsb7XgtVnkx6VygektK8%3D&st=2018-07-02T17%3A46%3A00Z&se=2118-07-02T17%3A46%3A00Z"],
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V4_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V4_con1_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":498,"y":271,"w":189,"h":94,
+              "url": "V4_con2_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V4_con1_1":{
+      "end" : "V4_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-e7f794ff-6a78-419f-b688-fc794c636054/V4_con1.vtt?sv=2015-07-08&sr=c&si=36958dae-b4c9-4a94-bf53-b21b18e4c1d1&sig=rmOx7SyTQGXKlhTecli5wNVxVNyvupyIoZMKhSrkhVc%3D&st=2018-07-02T17%3A51%3A21Z&se=2118-07-02T17%3A51%3A21Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/fe5b27c9-0e36-4913-8a9d-865621197a3e/tm-interactive-V4_con1.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-e7f794ff-6a78-419f-b688-fc794c636054/tm-interactive-V4_con1_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=36958dae-b4c9-4a94-bf53-b21b18e4c1d1&sig=rmOx7SyTQGXKlhTecli5wNVxVNyvupyIoZMKhSrkhVc%3D&st=2018-07-02T17%3A51%3A21Z&se=2118-07-02T17%3A51%3A21Z"]
+    },
+    "V4_con2_1":{
+      "end" : "V4_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-077673b9-d9d5-444e-8aaf-5853915f1d52/V4_con2.vtt?sv=2015-07-08&sr=c&si=6e599a4c-3ba6-43f5-9513-a2d377b79569&sig=WTRx9xyEJ5zYer4quV%2BQoP4Va634kv80t77nNeUm4EE%3D&st=2018-07-02T17%3A52%3A17Z&se=2118-07-02T17%3A52%3A17Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/f4fcca44-0f89-43f5-b030-2516bd81ad4d/tm-interactive-V4_con2.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-077673b9-d9d5-444e-8aaf-5853915f1d52/tm-interactive-V4_con2_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=6e599a4c-3ba6-43f5-9513-a2d377b79569&sig=WTRx9xyEJ5zYer4quV%2BQoP4Va634kv80t77nNeUm4EE%3D&st=2018-07-02T17%3A52%3A17Z&se=2118-07-02T17%3A52%3A17Z"]
+    },
+    "V4_con3_1":{
+      "end" : "V4_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-889a6ae6-afbe-4511-bcff-f84e07846704/V4_con3.vtt?sv=2015-07-08&sr=c&si=163c700f-1485-492f-aa6c-e12ec1215c81&sig=MIocvZD9FEl1VvloXaP6NBZvDo1BRvVvu46jMp9QSAI%3D&st=2018-07-02T17%3A53%3A31Z&se=2118-07-02T17%3A53%3A31Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/ee7f4c62-5717-4d57-945f-1b882499c24c/tm-interactive-V4_con3.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-889a6ae6-afbe-4511-bcff-f84e07846704/tm-interactive-V4_con3_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=163c700f-1485-492f-aa6c-e12ec1215c81&sig=MIocvZD9FEl1VvloXaP6NBZvDo1BRvVvu46jMp9QSAI%3D&st=2018-07-02T17%3A53%3A31Z&se=2118-07-02T17%3A53%3A31Z"]
+    },
+    "V4_con4_1":{
+      "_comment": "NOTE THE ASSET MIXUp WITH CONCLUSION 4 & 5",
+      "end" : null,
+      "complete": true,
+      "captions" :
+      "https://vmgstudios.blob.core.windows.net/asset-d021b694-d939-4c50-9d10-0b45d3f691da/V4_con4.vtt?sv=2015-07-08&sr=c&si=36a3df74-51de-4365-80e9-fbe902c6bc72&sig=9RL7IrXuy1U8VLRv8mVIeHvQfyKklQ3U5ewdygILbrw%3D&st=2018-07-02T17%3A54%3A37Z&se=2118-07-02T17%3A54%3A37Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/f9f53e1e-f6ce-476d-8a30-5b999c1ac87b/tm-interactive-V4_con5.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-529c3328-b534-4109-937e-2f1e92c15cc1/tm-interactive-V4_con5_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=f200bcb5-c2e2-4b45-8079-27663b36e312&sig=ncN9j4ktY2yDBo7HJpb%2FTmkfQ4N6ZHoOGNRneobS7kw%3D&st=2018-07-02T17%3A56%3A05Z&se=2118-07-02T17%3A56%3A05Z"],
+      "overlays": [
+        {
+          "in": 149,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V4_con5_1":{
+      "_comment": "NOTE THE ASSET MIXUp WITH CONCLUSION 4 & 5",
+      "end": null,
+      "complete": true,
+      "captions" :
+      "https://vmgstudios.blob.core.windows.net/asset-529c3328-b534-4109-937e-2f1e92c15cc1/V4_con5.vtt?sv=2015-07-08&sr=c&si=f200bcb5-c2e2-4b45-8079-27663b36e312&sig=ncN9j4ktY2yDBo7HJpb%2FTmkfQ4N6ZHoOGNRneobS7kw%3D&st=2018-07-02T17%3A56%3A05Z&se=2118-07-02T17%3A56%3A05Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/78e3bca7-92e3-4f58-bdc6-49ee2bb61560/tm-interactive-V4_con4.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-d021b694-d939-4c50-9d10-0b45d3f691da/tm-interactive-V4_con4_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=36a3df74-51de-4365-80e9-fbe902c6bc72&sig=9RL7IrXuy1U8VLRv8mVIeHvQfyKklQ3U5ewdygILbrw%3D&st=2018-07-02T17%3A54%3A37Z&se=2118-07-02T17%3A54%3A37Z"],
+      "overlays": [
+        {
+          "in": 69,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+
+
+
+
+    "V5_intro_1" : {
+      "end" : null,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-ac5f0b26-2434-43fb-a787-7f9cd36539fd/V5_intro.vtt?sv=2015-07-08&sr=c&si=767f7dda-a69d-43ce-9f38-0b6b508edbe5&sig=F7wl%2BadR5oz8VTDnrYBfXKS92hWnOnksatxzJbGv%2FRg%3D&st=2018-07-02T17%3A30%3A25Z&se=2118-07-02T17%3A30%3A25Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/7fd65ce7-7826-446c-8392-81319ecd9999/tm-interactive-V5_intro.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-ac5f0b26-2434-43fb-a787-7f9cd36539fd/tm-interactive-V5_intro_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=767f7dda-a69d-43ce-9f38-0b6b508edbe5&sig=F7wl%2BadR5oz8VTDnrYBfXKS92hWnOnksatxzJbGv%2FRg%3D&st=2018-07-02T17%3A30%3A25Z&se=2118-07-02T17%3A30%3A25Z"],
+      "overlays" : [
+        {
+          "in" : 78,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 78,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V5_A_1",
+              "val": "OPTIONA"
+            },
+            {
+              "x":262,"y":271,"w":189,"h":94,
+              "url": "V5_C_1",
+              "val": "OPTIONB"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V5_B_1",
+              "val": "OPTIONC"
+            }
+          ]
+        }
+      ]
+    },
+    "V5_A_1" : {
+      "end" : "TC1_WV5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-13fbf698-ad78-40b2-b8d2-9344b1624aa5/V5_A.vtt?sv=2015-07-08&sr=c&si=f0d339e2-0917-4455-9384-e866da2cdcfa&sig=OjP800kvJ22A4Y0PRNtYRDzjeul9d6%2F9bYeFtoktj7Q%3D&st=2018-07-02T17%3A32%3A56Z&se=2118-07-02T17%3A32%3A56Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/51881ca5-e295-4943-bad5-7e8478afc009/tm-interactive-V5_A.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-13fbf698-ad78-40b2-b8d2-9344b1624aa5/tm-interactive-V5_A_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=f0d339e2-0917-4455-9384-e866da2cdcfa&sig=OjP800kvJ22A4Y0PRNtYRDzjeul9d6%2F9bYeFtoktj7Q%3D&st=2018-07-02T17%3A32%3A56Z&se=2118-07-02T17%3A32%3A56Z"]
+    },
+    "V5_B_1" : {
+      "end" : "TC1_WV5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-7c61d9b2-8aa6-43e0-af1e-f5f961d7d24e/V5_B.vtt?sv=2015-07-08&sr=c&si=e66fbc47-4262-45de-bf48-7e8eff930160&sig=pvxhUNvtd7aOfIVAWQxHV9WHFLhSdcVe8qMZUrC8b%2Fk%3D&st=2018-07-02T17%3A35%3A06Z&se=2118-07-02T17%3A35%3A06Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/a5e4b184-f5b8-439a-b5f0-c5d16df3d72e/tm-interactive-V5_B.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-7c61d9b2-8aa6-43e0-af1e-f5f961d7d24e/tm-interactive-V5_B_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=e66fbc47-4262-45de-bf48-7e8eff930160&sig=pvxhUNvtd7aOfIVAWQxHV9WHFLhSdcVe8qMZUrC8b%2Fk%3D&st=2018-07-02T17%3A35%3A06Z&se=2118-07-02T17%3A35%3A06Z"]
+    },
+    "V5_C_1" : {
+      "end" : "V5_con4_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-c5e505df-22d3-4f7d-a0dd-db76f1ae4e02/V5_C.vtt?sv=2015-07-08&sr=c&si=b2810ba9-91ce-41ac-9254-b00a7319c22a&sig=JXoFlq%2B6C9OHTfUZ3XzIdR2Bg3gWDOYMEXqhnCswc6A%3D&st=2018-07-02T17%3A36%3A12Z&se=2118-07-02T17%3A36%3A12Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/7d8a6a65-d860-4357-8dda-a4f1804799a8/tm-interactive-V5_C.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-c5e505df-22d3-4f7d-a0dd-db76f1ae4e02/tm-interactive-V5_C_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=b2810ba9-91ce-41ac-9254-b00a7319c22a&sig=JXoFlq%2B6C9OHTfUZ3XzIdR2Bg3gWDOYMEXqhnCswc6A%3D&st=2018-07-02T17%3A36%3A12Z&se=2118-07-02T17%3A36%3A12Z"]
+    },
+    "TC1_WV5_1":{
+      "end" : null,
+      "captions" : null,
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/7f811cf8-1869-41d2-813e-a66078bf9dfa/tm-interactive-TC1_WV5_1.ism/manifest","https://vmgstudios.blob.core.windows.net/asset-9ca9636b-21c8-4aa1-b248-60ce0f55433a/tm-interactive-TC1_WV5_1_960x540_AACAudio_1050.mp4?sv=2015-07-08&sr=c&si=67a6bf57-3aeb-4b28-9d34-f262213bb58e&sig=GQzMQ5HbTSf4KHMfpK54hLcKdv9vi7Iw3mhOZSlk6Ak%3D&st=2018-07-02T17%3A37%3A08Z&se=2118-07-02T17%3A37%3A08Z"],
+      "overlays" : [
+        {
+          "in" : 6,
+          "type" : "text",
+          "val" : "DRAG THE PHONE TO THE BEST RESPONSE",
+          "x" : 509,
+          "y" : 154
+        },{
+          "in" : 6,
+          "type" : "droppable",
+          "x": 577,
+          "y": 20,
+          "droppableZone":[
+            {
+              "x":33, "y":271,"w":189,"h":94,
+              "url": "V5_con3_1",
+              "val": "OPTION2A"
+            },
+            {
+              "x":261,"y":271,"w":189,"h":94,
+              "url": "V5_con2_1",
+              "val": "OPTION2B"
+            },
+            {
+              "x":494,"y":271,"w":189,"h":94,
+              "url": "V5_con1_1",
+              "val": "OPTION2C"
+            }
+          ]
+        }
+      ]
+    },
+    "V5_con1_1":{
+      "end" : "V5_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-c3bafe62-6b28-4cab-8eb0-0f1917169189/V5_con1.vtt?sv=2015-07-08&sr=c&si=7f1e224d-e48c-47af-ba79-8f2ca80e8f67&sig=3ruWAx%2BGnOCe6m2O0q%2Baqrg01%2BfHIzedQI%2BXHsPrfNM%3D&st=2018-07-02T17%3A37%3A57Z&se=2118-07-02T17%3A37%3A57Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/75fc3abf-40e5-40e1-bea0-79993658254d/tm-interactive-V5_con1.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-c3bafe62-6b28-4cab-8eb0-0f1917169189/tm-interactive-V5_con1_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=7f1e224d-e48c-47af-ba79-8f2ca80e8f67&sig=3ruWAx%2BGnOCe6m2O0q%2Baqrg01%2BfHIzedQI%2BXHsPrfNM%3D&st=2018-07-02T17%3A37%3A57Z&se=2118-07-02T17%3A37%3A57Z"]
+    },
+    "V5_con2_1":{
+      "end" : "V5_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-de51f378-9af9-4334-a8b4-70aae2683a1d/V5_con2.vtt?sv=2015-07-08&sr=c&si=f9cad19b-2425-49ee-8571-6d4cc6f337ed&sig=NM1rBAbkLl%2F5MphF8KYEDPJXugunSt9vSQJ3WKA8g6Q%3D&st=2018-07-02T17%3A40%3A26Z&se=2118-07-02T17%3A40%3A26Z",
+      "url" : [
+        "https://tmobileinteractive-uswe.streaming.media.azure.net/0b564e46-411d-460c-9546-0d7ba66ed5d7/tm-interactive-V5_con2.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-de51f378-9af9-4334-a8b4-70aae2683a1d/tm-interactive-V5_con2_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=f9cad19b-2425-49ee-8571-6d4cc6f337ed&sig=NM1rBAbkLl%2F5MphF8KYEDPJXugunSt9vSQJ3WKA8g6Q%3D&st=2018-07-02T17%3A40%3A26Z&se=2118-07-02T17%3A40%3A26Z"
+      ]
+    },
+    "V5_con3_1":{
+      "end" : "V5_con5_1",
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-31712c5e-0259-405b-82f2-aad14e5e913d/V5_con3.vtt?sv=2015-07-08&sr=c&si=3c3d4654-6c89-484f-a4cb-7d95a61409f9&sig=w7TsXIZ3K4l6VhNo9qJhTA1cwQYui6WYFj6rTuGA8ZM%3D&st=2018-07-02T17%3A41%3A23Z&se=2118-07-02T17%3A41%3A23Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/675356ad-b120-4d1d-b280-b444be9de013/tm-interactive-V5_con3.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-31712c5e-0259-405b-82f2-aad14e5e913d/tm-interactive-V5_con3_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=3c3d4654-6c89-484f-a4cb-7d95a61409f9&sig=w7TsXIZ3K4l6VhNo9qJhTA1cwQYui6WYFj6rTuGA8ZM%3D&st=2018-07-02T17%3A41%3A23Z&se=2118-07-02T17%3A41%3A23Z"]
+    },
+    "V5_con4_1":{
+      "end" : null,
+      "complete": true,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-8c3c3ad5-4279-4c65-a2e1-288db1646c0d/V5_con4.vtt?sv=2015-07-08&sr=c&si=e8b3dbec-b8b4-40e3-a3fc-91d7959fbe4c&sig=aWXG7Sd%2Fe2%2BW6SWIcSOi3nORKW4q6wIw2hEdwMW%2BSjM%3D&st=2018-07-02T17%3A42%3A37Z&se=2118-07-02T17%3A42%3A37Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/4461d561-7ef4-4f0b-8bee-bbd771ba39fc/tm-interactive-V5_con4.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-8c3c3ad5-4279-4c65-a2e1-288db1646c0d/tm-interactive-V5_con4_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=e8b3dbec-b8b4-40e3-a3fc-91d7959fbe4c&sig=aWXG7Sd%2Fe2%2BW6SWIcSOi3nORKW4q6wIw2hEdwMW%2BSjM%3D&st=2018-07-02T17%3A42%3A37Z&se=2118-07-02T17%3A42%3A37Z"],
+      "overlays": [
+        {
+          "in": 114,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    },
+    "V5_con5_1":{
+      "end": null,
+      "complete": true,
+      "captions" : "https://vmgstudios.blob.core.windows.net/asset-176e90fe-ab90-4014-91e5-09e4177d30be/V5_con5.vtt?sv=2015-07-08&sr=c&si=74ead633-100a-48ee-8216-54273fa8e389&sig=Dieu4DZU4kp8ev4P%2FooONJ%2BpAULOlv7sKVVhC%2Fp4rdg%3D&st=2018-07-02T17%3A43%3A30Z&se=2118-07-02T17%3A43%3A30Z",
+      "url" : ["https://tmobileinteractive-uswe.streaming.media.azure.net/615b361b-c0d9-4968-821c-640bfcb718c1/tm-interactive-V5_con5.ism/manifest(format=mpd-time-csf)","https://vmgstudios.blob.core.windows.net/asset-176e90fe-ab90-4014-91e5-09e4177d30be/tm-interactive-V5_con5_960x540_AACAudio_1850.mp4?sv=2015-07-08&sr=c&si=74ead633-100a-48ee-8216-54273fa8e389&sig=Dieu4DZU4kp8ev4P%2FooONJ%2BpAULOlv7sKVVhC%2Fp4rdg%3D&st=2018-07-02T17%3A43%3A30Z&se=2118-07-02T17%3A43%3A30Z"],
+      "overlays": [
+        {
+          "in": 78,
+          "type": "button",
+          "val": "Play Again?",
+          "x": 118,
+          "y": 301,
+          "w": 100,
+          "h": 54
+        }
+      ]
+    }
+  },
+  "projects":{
+    "video1":{
+      "entry": "V1_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-01.png",
+      "title": "T-Mobile 1 - Make it Personal"
+    },
+    "video2":{
+      "entry": "V2_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-02.png",
+      "title": "T-Mobile 2 - Explore and Discover"
+    },
+    "video3":{
+      "entry": "V3_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-03.png",
+      "title": "T-Mobile 3 - Guide the Purchase"
+    },
+    "video4":{
+      "entry": "V4_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-04.png",
+      "title": "T-Mobile 4 - Problem Solved"
+    },
+    "video5":{
+      "entry": "V5_intro_1",
+      "poster": "https://vmgstudios.blob.core.windows.net/images/Interactive_TitleCards-05.png",
+      "title": "T-Mobile 5 - Stay Connected"
+    }
+  }
+}

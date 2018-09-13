@@ -10,6 +10,7 @@ export function initProject(id){
     const projData = loadProjectsData(id)
 
     const videoData = loadVideoData(projData.entry)
+    // console.log( {...projData,...videoData} )
     dispatch(asyncCallback(INIT_PROJECT, {...projData,...videoData}))
 
     // loadProjectsData(id).then(projData=>{
